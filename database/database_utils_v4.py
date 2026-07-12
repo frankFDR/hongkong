@@ -162,7 +162,7 @@ def _normalize_time_value(value: Union[str, datetime, pd.Timestamp]) -> pd.Times
 PASSWORD = urllib.parse.quote_plus("pku")
 DB_NAME_ORIGINAL = os.getenv("PORT_DB_NAME", "port")
 DB_NAME = _slugify_identifier(DB_NAME_ORIGINAL, fallback_prefix="db")
-DB_URL = f"mysql+pymysql://root:{PASSWORD}@localhost:3306/{DB_NAME}?charset=utf8mb4"
+DB_URL = f"mysql+pymysql://port_user:{PASSWORD}@localhost:3306/{DB_NAME}?charset=utf8mb4"
 
 # 创建全局引擎（内置连接池）
 engine = create_engine(
@@ -819,7 +819,13 @@ def import_csv_to_db(
                 'month': ['月', '月份', 'Month', 'month', 'MONTH'],
                 'day': ['日', '日期', 'Day', 'day', 'DAY'],
                 'quarter': ['季', '季度', 'Quarter', 'quarter'],
-                'date': ['Date', 'date', 'DATE', 'Time', 'time']
+                'date': [
+                    'timestamp', 'Timestamp', 'TIMESTAMP',
+                    'datetime', 'Datetime', 'DATETIME',
+                    'date_time', 'DateTime',
+                    '日期时间', '时间戳', '日期', '时间',
+                    'Date', 'date', 'DATE', 'Time', 'time', 'TIME'
+                ]
             }
             time_mapping = {}
             for key, candidates in potential_map.items():
@@ -855,7 +861,14 @@ def import_csv_to_db(
             for clean_col, original_col in clean_to_original.items()
         }
         df = df.rename(columns=rename_mapping)
-        if "timestamp" in df.columns[:-1]:
+        # CSV 原本就以 timestamp 作为时间列时，生成标准时间戳会原位覆盖该列，
+        # 这是合法情况；其他字段翻译后占用 timestamp 仍按原逻辑报错。
+        source_date_column = clean_mapping.get("date")
+        source_date_is_timestamp = bool(
+            source_date_column
+            and rename_mapping.get(source_date_column) == "timestamp"
+        )
+        if "timestamp" in df.columns[:-1] and not source_date_is_timestamp:
             raise ValueError("CSV 字段翻译后不能与系统字段 timestamp 重名")
             
         # 4. 检查表是否存在（防止误覆盖）
