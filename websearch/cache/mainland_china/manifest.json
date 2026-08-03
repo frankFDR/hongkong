@@ -1,0 +1,3713 @@
+{
+  "version": 2,
+  "months": [
+    {
+      "year": 2015,
+      "month": 1,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2822942000,
+        "export": 24708752000
+      }
+    },
+    {
+      "year": 2015,
+      "month": 2,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 1920719000,
+        "export": 21044087000
+      }
+    },
+    {
+      "year": 2015,
+      "month": 3,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3098020000,
+        "export": 12190949000
+      }
+    },
+    {
+      "year": 2015,
+      "month": 4,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2954746000,
+        "export": 19222665000
+      }
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2702670000,
+        "export": 22598102000
+      }
+    },
+    {
+      "year": 2015,
+      "month": 6,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2961434000,
+        "export": 24404053000
+      }
+    },
+    {
+      "year": 2015,
+      "month": 7,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3095982000,
+        "export": 26148116000
+      }
+    },
+    {
+      "year": 2015,
+      "month": 8,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2732528000,
+        "export": 27606080000
+      }
+    },
+    {
+      "year": 2015,
+      "month": 9,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2610077000,
+        "export": 25791635000
+      }
+    },
+    {
+      "year": 2015,
+      "month": 10,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2243002000,
+        "export": 22765968000
+      }
+    },
+    {
+      "year": 2015,
+      "month": 11,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2390192000,
+        "export": 21160430000
+      }
+    },
+    {
+      "year": 2015,
+      "month": 12,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2817769000,
+        "export": 25942874000
+      }
+    },
+    {
+      "year": 2016,
+      "month": 1,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2304145000,
+        "export": 23351336000
+      }
+    },
+    {
+      "year": 2016,
+      "month": 2,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 1704639000,
+        "export": 15208065000
+      }
+    },
+    {
+      "year": 2016,
+      "month": 3,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2579376000,
+        "export": 16313423000
+      }
+    },
+    {
+      "year": 2016,
+      "month": 4,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2364340000,
+        "export": 20150529000
+      }
+    },
+    {
+      "year": 2016,
+      "month": 5,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2411092000,
+        "export": 22745905000
+      }
+    },
+    {
+      "year": 2016,
+      "month": 6,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2421393000,
+        "export": 23068436000
+      }
+    },
+    {
+      "year": 2016,
+      "month": 7,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2449130000,
+        "export": 24112052000
+      }
+    },
+    {
+      "year": 2016,
+      "month": 8,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2569549000,
+        "export": 26828843000
+      }
+    },
+    {
+      "year": 2016,
+      "month": 9,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2295832000,
+        "export": 21822433000
+      }
+    },
+    {
+      "year": 2016,
+      "month": 10,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2133598000,
+        "export": 20541848000
+      }
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2489698000,
+        "export": 20617857000
+      }
+    },
+    {
+      "year": 2016,
+      "month": 12,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2791215000,
+        "export": 22544800000
+      }
+    },
+    {
+      "year": 2017,
+      "month": 1,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2269673000,
+        "export": 23098654000
+      }
+    },
+    {
+      "year": 2017,
+      "month": 2,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2346699000,
+        "export": 10601828000
+      }
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2731607000,
+        "export": 19403657000
+      }
+    },
+    {
+      "year": 2017,
+      "month": 4,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2297892000,
+        "export": 20847703000
+      }
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2576600000,
+        "export": 22658367000
+      }
+    },
+    {
+      "year": 2017,
+      "month": 6,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2658448000,
+        "export": 23450014000
+      }
+    },
+    {
+      "year": 2017,
+      "month": 7,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2593542000,
+        "export": 24424645000
+      }
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2764015000,
+        "export": 25182381000
+      }
+    },
+    {
+      "year": 2017,
+      "month": 9,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2700462000,
+        "export": 22772898000
+      }
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2474113000,
+        "export": 20800034000
+      }
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2877831000,
+        "export": 22137334000
+      }
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2738957000,
+        "export": 23078673000
+      }
+    },
+    {
+      "year": 2018,
+      "month": 1,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2985395000,
+        "export": 22237888000
+      }
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 1851398000,
+        "export": 19695754000
+      }
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2921725000,
+        "export": 13677496000
+      }
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2650315000,
+        "export": 20647483000
+      }
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3217858000,
+        "export": 22604648000
+      }
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2871401000,
+        "export": 24591407000
+      }
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3161481000,
+        "export": 25862417000
+      }
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3334079000,
+        "export": 25957113000
+      }
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2911865000,
+        "export": 25565694000
+      }
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2682403000,
+        "export": 22213849000
+      }
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2836173000,
+        "export": 21979553000
+      }
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2750040000,
+        "export": 22164184000
+      }
+    },
+    {
+      "year": 2019,
+      "month": 1,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3148558000,
+        "export": 24174319000
+      }
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2185449000,
+        "export": 12679884000
+      }
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2830810000,
+        "export": 17616773000
+      }
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2967738000,
+        "export": 18757512000
+      }
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2983351000,
+        "export": 23051186000
+      }
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2695977000,
+        "export": 23712982000
+      }
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2992041000,
+        "export": 26352207000
+      }
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2474700000,
+        "export": 24672752000
+      }
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2420040000,
+        "export": 23320150000
+      }
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2289919000,
+        "export": 21780729000
+      }
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2537391000,
+        "export": 20741875000
+      }
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2657485000,
+        "export": 23713197000
+      }
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 1990203947,
+        "export": 24505596992
+      }
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2995898499,
+        "export": 4861280680
+      }
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2888132000,
+        "export": 15288476000
+      }
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2210737648,
+        "export": 20983682196
+      }
+    },
+    {
+      "year": 2020,
+      "month": 5,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 1755479547,
+        "export": 28780080706
+      }
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2098845160,
+        "export": 28028965522
+      }
+    },
+    {
+      "year": 2020,
+      "month": 7,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2399945856,
+        "export": 30225195439
+      }
+    },
+    {
+      "year": 2020,
+      "month": 8,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2335657562,
+        "export": 29706740800
+      }
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2659630527,
+        "export": 27144439441
+      }
+    },
+    {
+      "year": 2020,
+      "month": 10,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2416861559,
+        "export": 23527787847
+      }
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2656781844,
+        "export": 23177634388
+      }
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2959744155,
+        "export": 24641972079
+      }
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3257974431,
+        "export": 25134509737
+      }
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2323139834,
+        "export": 18459430942
+      }
+    },
+    {
+      "year": 2021,
+      "month": 3,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3422003081,
+        "export": 17656117501
+      }
+    },
+    {
+      "year": 2021,
+      "month": 4,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3116965165,
+        "export": 22318649116
+      }
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2872581640,
+        "export": 23393707575
+      }
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2981739160,
+        "export": 26727744680
+      }
+    },
+    {
+      "year": 2021,
+      "month": 7,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2957806478,
+        "export": 27524522849
+      }
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3033543894,
+        "export": 29404265163
+      }
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2926750172,
+        "export": 28425727486
+      }
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2594671348,
+        "export": 28308289472
+      }
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2946911388,
+        "export": 28035413663
+      }
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3044917862,
+        "export": 29640254663
+      }
+    },
+    {
+      "year": 2022,
+      "month": 1,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3220914443,
+        "export": 32016697059
+      }
+    },
+    {
+      "year": 2022,
+      "month": 2,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2341659907,
+        "export": 17604607450
+      }
+    },
+    {
+      "year": 2022,
+      "month": 3,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2890919618,
+        "export": 21880786016
+      }
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2494530270,
+        "export": 23401796484
+      }
+    },
+    {
+      "year": 2022,
+      "month": 5,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2751162426,
+        "export": 28935375166
+      }
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2843276995,
+        "export": 31213888508
+      }
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2514177501,
+        "export": 32806996651
+      }
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2710653439,
+        "export": 30622722624
+      }
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2531305258,
+        "export": 27720293607
+      }
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2260064935,
+        "export": 24713615002
+      }
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2595613045,
+        "export": 24042484835
+      }
+    },
+    {
+      "year": 2022,
+      "month": 12,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2306161066,
+        "export": 24990950365
+      }
+    },
+    {
+      "year": 2023,
+      "month": 1,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 1956122841,
+        "export": 26183156095
+      }
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2053875137,
+        "export": 14422608088
+      }
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2316320711,
+        "export": 26201771242
+      }
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2199796664,
+        "export": 25484075882
+      }
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2405922613,
+        "export": 25129506050
+      }
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2403987954,
+        "export": 26766186282
+      }
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2488384199,
+        "export": 26838374955
+      }
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2916850919,
+        "export": 27618526168
+      }
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2753526602,
+        "export": 25953081324
+      }
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2757909005,
+        "export": 22782966229
+      }
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2851022847,
+        "export": 23419535017
+      }
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2813470049,
+        "export": 25028473480
+      }
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2978816971,
+        "export": 27165030586
+      }
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2391638356,
+        "export": 17639413533
+      }
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 3028535023,
+        "export": 20717666620
+      }
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2884967764,
+        "export": 23822124382
+      }
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2631709730,
+        "export": 25991256087
+      }
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2411012730,
+        "export": 27151355004
+      }
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2725708675,
+        "export": 26519940628
+      }
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2531698061,
+        "export": 27709856691
+      }
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2315578378,
+        "export": 24548843751
+      }
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2303727458,
+        "export": 25278259551
+      }
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2212981638,
+        "export": 24951688550
+      }
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2501499471,
+        "export": 27872326233
+      }
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 1993666387,
+        "export": 29749642838
+      }
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 1965169965,
+        "export": 12888288863
+      }
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2045209191,
+        "export": 23255152605
+      }
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2038806249,
+        "export": 24053359880
+      }
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 1920435051,
+        "export": 26053069486
+      }
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 1991861190,
+        "export": 27119172178
+      }
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2171650200,
+        "export": 26562150941
+      }
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2306941241,
+        "export": 26349227952
+      }
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2312338259,
+        "export": 24258944083
+      }
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2200117140,
+        "export": 22139141545
+      }
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2409545198,
+        "export": 23748459722
+      }
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2694549000,
+        "export": 25839797000
+      }
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2544388000,
+        "export": 27820700000
+      }
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2020564000,
+        "export": 22310465000
+      }
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2701480000,
+        "export": 16564378000
+      }
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2659645000,
+        "export": 23941003000
+      }
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "year_url": null,
+      "detail_url": null,
+      "usd_page_url": null,
+      "download_url": null,
+      "path": null,
+      "sha256": null,
+      "fetched_at": "2026-07-22T02:16:48.546302+00:00",
+      "source_type": "existing_data_totals",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "cached",
+      "stale": false,
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "seeded_from_existing_csv_totals",
+        "differences": []
+      },
+      "totals": {
+        "import": 2364206000,
+        "export": 25381469000
+      }
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "detail_url": "http://english.customs.gov.cn/Statics/dd62ef25-db42-4e74-b7d1-79aa5dea406b.html",
+      "online_status": "failed",
+      "verified": false,
+      "failure_type": "ImportError",
+      "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    }
+  ]
+}

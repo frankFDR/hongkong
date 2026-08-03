@@ -1,0 +1,42 @@
+# 越南 NSO 数据抓取配置
+# fetch_vietnam.py 启动时读取本文件；改这里即可换账号/国家/会话，无需改代码。
+# nso.gov.vn 屏蔽境外 IP，且代理商 IPRoyal 默认屏蔽 *.gov.vn 域名，
+# 因此脚本内置一个本地转发：对 gov 域名「本地解析成真 IP、只把 IP 发给 IPRoyal」绕过屏蔽。
+
+vietnam_proxy:
+  enabled: true                    # false = 不走越南代理（直连/系统网络，通常抓不到 nso.gov.vn）
+  upstream_host: geo.iproyal.com   # IPRoyal 网关
+  upstream_port: 12321
+  username: "ofWyelLWjflthpZJ"
+  password: "fZMdJn9bvwpHmj88"     # 基础密码，不要带 _country/_session 等后缀（脚本自动拼）
+  country: "vn"                    # 出口国家；留空 "" 则不锁国家
+  city: ""                         # 出口城市，如 hochiminhcity / hanoi；留空不锁
+  sticky_session: true             # true = 整轮运行用同一个越南 IP；false = 每请求轮换
+  session_lifetime: "30m"          # 粘性会话时长（IPRoyal 最长 7d）
+  local_port: 18080                # 本地转发监听端口（被占用可改）
+
+# 抓数据前的连通性预检
+preflight:
+  enabled: true
+  test_url: "https://www.nso.gov.vn/en/"
+  timeout_seconds: 40
+
+# 美国 Census 与香港统计处专用代理。程序从 clash.yaml 读取节点，自动启动项目专用
+# Mihomo 进程；只代理 census.gov / censtatd.gov.hk，不修改系统代理或 Clash 设置。
+regional_proxy:
+  enabled: true
+  clash_config: "clash.yaml"
+  mihomo_path: "/data5/zhimo/port/hongkong/websearch/mihomo"                 # 留空自动寻找 PATH 或 Clash Verge 自带内核
+  mixed_port: 17891              # 项目专用端口，避免与 Clash 默认 7890 冲突
+  startup_timeout_seconds: 20
+  usa_name_patterns: ["美国"]
+  # 香港组含美国圣何塞 vless 兜底：唯一香港节点是 hysteria2(UDP)，在 WSL/Docker
+  # (被 Windows Clash TUN 再截一层)下 UDP 跑不通；censtatd 只封大陆 IP，美国出口可用。
+  # url-test 自动择优：Windows 本机上香港节点更快仍优先。
+  hongkong_name_patterns: ["香港", "美国圣何塞"]
+  # "电信联通移动推荐" 只命中 hysteria2(UDP) 美国节点：本机双层代理下不通，且 mihomo
+  # 刚启动 url-test 未测速时默认用组内第一个节点，恰好是它，导致预检必报 10054。
+  exclude_name_patterns: ["剩余流量", "套餐到期", "电信联通移动推荐"]
+  health_check_url: "https://www.gstatic.com/generate_204"
+  health_check_interval_seconds: 300
+  log_level: "warning"
