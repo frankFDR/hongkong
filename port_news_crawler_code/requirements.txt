@@ -1,0 +1,18 @@
+# Core browser automation
+selenium>=4.20.0
+# Stealth Chrome driver to bypass common anti-bot (Cloudflare etc.)
+undetected-chromedriver>=3.5.5
+# Robust article extraction (title / body / publish date) across many sites
+trafilatura>=1.9.0
+# HTML parsing helpers / fallbacks
+lxml>=5.2.0
+lxml_html_clean>=0.4.0   # required by trafilatura/justext on lxml 5.2+
+beautifulsoup4>=4.12.0
+# Config + dates + retries
+PyYAML>=6.0.1
+python-dateutil>=2.9.0
+tenacity>=8.3.0
+# Shared scoring/database pipeline
+sqlalchemy>=2.0
+pymysql>=1.1
+pandas>=2.0

@@ -1,0 +1,1515 @@
+2026-07-13 00:42:25 | INFO    | crawler.browser | Detected Chrome major version: 150
+2026-07-13 00:42:25 | INFO    | crawler.pipeline | Crawler starting. Sites: hk_marine_dept
+2026-07-13 00:42:25 | INFO    | crawler.pipeline | [hk_marine_dept] crawling 1 list page(s)
+2026-07-13 00:42:26 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>
+2026-07-13 00:42:26 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-13 00:42:26 | WARNING | crawler.pipeline | fetch attempt 1/3 failed for https://www.hkmpdb.gov.hk/en/news.html: Could not start Chrome driver: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-13 00:42:29 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>
+2026-07-13 00:42:29 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-13 00:42:29 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>
+2026-07-13 00:42:29 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-13 00:42:29 | WARNING | crawler.pipeline | fetch attempt 2/3 failed for https://www.hkmpdb.gov.hk/en/news.html: Could not start Chrome driver: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-13 00:42:33 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>
+2026-07-13 00:42:33 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-13 00:42:34 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>
+2026-07-13 00:42:34 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-13 00:42:34 | WARNING | crawler.pipeline | fetch attempt 3/3 failed for https://www.hkmpdb.gov.hk/en/news.html: Could not start Chrome driver: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-13 00:42:34 | WARNING | crawler.pipeline | [hk_marine_dept] could not load list page https://www.hkmpdb.gov.hk/en/news.html
+2026-07-13 00:42:34 | INFO    | crawler.pipeline | [hk_marine_dept] 0 candidates, 0 new to fetch
+2026-07-13 00:42:34 | INFO    | crawler.pipeline | [hk_marine_dept] cycle done, 0 new article(s). Stats: {'total': 0, 'per_site': {}}
+2026-07-13 00:48:52 | INFO    | crawler.pipeline | Received signal 2, shutting down after current task...
+2026-07-13 00:48:52 | INFO    | crawler.pipeline | Final stats: {'total': 0, 'per_site': {}}
+2026-07-13 00:48:52 | INFO    | crawler.pipeline | Crawler stopped.
+2026-07-13 01:16:58 | INFO    | crawler.browser | Detected Chrome major version: 150
+2026-07-13 01:16:58 | INFO    | crawler.pipeline | [hk_marine_dept] crawling 1 list page(s)
+2026-07-13 01:17:09 | INFO    | crawler.browser | Chrome driver started (undetected=True, headless=True)
+2026-07-13 01:17:38 | INFO    | crawler.pipeline | [hk_marine_dept] 187 candidates, 187 new to fetch
+2026-07-13 01:17:47 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] New appointment to Hong Kong Maritime and Port Development Board annou (cac1b2e6fd9e06d0.json)
+2026-07-13 01:17:59 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] New appointment to Hong Kong Maritime and Port Development Board annou (6fb654772f1bcebd.json)
+2026-07-13 01:18:11 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Speech by STL at rollout ceremony of Port Community System (65bbc20c63087e21.json)
+2026-07-13 01:18:26 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Government implements multiple measures to promote smart, green and mo (4b3714fa00c15d0b.json)
+2026-07-13 01:18:41 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Ming Pao 8 January 2026 (Chinese Only) (88863df4b50c80b1.json)
+2026-07-13 01:18:45 | INFO    | crawler.pipeline | [hk_marine_dept] single cycle done, 5 new article(s)
+2026-07-13 01:18:45 | INFO    | crawler.pipeline | Final stats: {'total': 5, 'per_site': {'hk_marine_dept': 5}}
+2026-07-13 01:18:45 | INFO    | crawler.pipeline | Crawler stopped.
+2026-07-12 17:55:13 | INFO    | crawler.pipeline | [hk_marine_dept] crawling 1 list page(s)
+2026-07-12 17:55:13 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): No module named 'undetected_chromedriver'
+2026-07-12 17:55:43 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-12 17:55:43 | WARNING | crawler.pipeline | fetch attempt 1/3 failed for https://www.hkmpdb.gov.hk/en/news.html: Could not start Chrome driver: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-12 17:55:45 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): No module named 'undetected_chromedriver'
+2026-07-12 17:55:56 | INFO    | crawler.pipeline | [hk_marine_dept] crawling 1 list page(s)
+2026-07-12 17:56:26 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-12 17:56:26 | WARNING | crawler.pipeline | fetch attempt 1/3 failed for https://www.hkmpdb.gov.hk/en/news.html: Could not start Chrome driver: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:02:47 | INFO    | crawler.pipeline | [hket] crawling 2 list page(s)
+2026-07-22 06:02:48 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:02:48 | WARNING | crawler.pipeline | fetch attempt 1/3 failed for https://www.hket.com/: Could not start Chrome driver: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:02:52 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:02:54 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:02:54 | WARNING | crawler.pipeline | fetch attempt 2/3 failed for https://www.hket.com/: Could not start Chrome driver: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:03:00 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:03:02 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:03:02 | WARNING | crawler.pipeline | fetch attempt 3/3 failed for https://www.hket.com/: Could not start Chrome driver: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:03:02 | WARNING | crawler.pipeline | [hket] could not load list page https://www.hket.com/
+2026-07-22 06:03:04 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:03:04 | WARNING | crawler.pipeline | fetch attempt 1/3 failed for https://service.hket.com/search/result?dis=contenttagid&keyword=2467: Could not start Chrome driver: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:03:08 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:03:10 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:03:10 | WARNING | crawler.pipeline | fetch attempt 2/3 failed for https://service.hket.com/search/result?dis=contenttagid&keyword=2467: Could not start Chrome driver: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:03:16 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:03:18 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:03:18 | WARNING | crawler.pipeline | fetch attempt 3/3 failed for https://service.hket.com/search/result?dis=contenttagid&keyword=2467: Could not start Chrome driver: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-07-22 06:03:18 | WARNING | crawler.pipeline | [hket] could not load list page https://service.hket.com/search/result?dis=contenttagid&keyword=2467
+2026-07-22 06:03:18 | INFO    | crawler.pipeline | [hket] 0 candidates, 0 new to fetch
+2026-07-22 06:03:18 | INFO    | crawler.pipeline | [hket] single cycle done, 0 new article(s)
+2026-07-22 06:03:18 | INFO    | crawler.pipeline | Final stats: {'total': 5, 'per_site': {'hk_marine_dept': 5}}
+2026-07-22 06:03:18 | INFO    | crawler.pipeline | Crawler stopped.
+2026-07-22 06:11:03 | INFO    | crawler.pipeline | [hket] crawling 2 list page(s)
+2026-07-22 06:11:13 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-07-22 06:12:58 | INFO    | crawler.pipeline | [hket] 0 candidates, 0 new to fetch
+2026-07-22 06:12:58 | INFO    | crawler.pipeline | [hket] single cycle done, 0 new article(s)
+2026-07-22 06:12:58 | INFO    | crawler.pipeline | Final stats: {'total': 5, 'per_site': {'hk_marine_dept': 5}}
+2026-07-22 06:12:58 | INFO    | crawler.pipeline | Crawler stopped.
+2026-07-22 06:15:21 | INFO    | crawler.pipeline | [hket] crawling 2 list page(s)
+2026-07-22 06:15:24 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-07-22 06:17:29 | INFO    | crawler.pipeline | [hket] 0 candidates, 0 new to fetch
+2026-07-22 06:17:29 | INFO    | crawler.pipeline | [hket] single cycle done, 0 new article(s)
+2026-07-22 06:17:29 | INFO    | crawler.pipeline | Final stats: {'total': 5, 'per_site': {'hk_marine_dept': 5}}
+2026-07-22 06:17:29 | INFO    | crawler.pipeline | Crawler stopped.
+2026-07-22 06:18:41 | INFO    | crawler.pipeline | [takungpao] crawling 2 list page(s)
+2026-07-22 06:18:45 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-07-22 06:19:02 | INFO    | crawler.pipeline | [takungpao] 0 candidates, 0 new to fetch
+2026-07-22 06:19:02 | INFO    | crawler.pipeline | [takungpao] single cycle done, 0 new article(s)
+2026-07-22 06:19:02 | INFO    | crawler.pipeline | Final stats: {'total': 5, 'per_site': {'hk_marine_dept': 5}}
+2026-07-22 06:19:02 | INFO    | crawler.pipeline | Crawler stopped.
+2026-07-22 06:31:57 | INFO    | crawler.pipeline | [cnn] crawling 2 list page(s)
+2026-07-22 06:32:01 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-07-22 06:33:55 | INFO    | crawler.pipeline | [cnn] 0 candidates, 0 new to fetch
+2026-07-22 06:33:55 | INFO    | crawler.pipeline | [cnn] single cycle done, 0 new article(s)
+2026-07-22 06:33:55 | INFO    | crawler.pipeline | Final stats: {'total': 5, 'per_site': {'hk_marine_dept': 5}}
+2026-07-22 06:33:56 | INFO    | crawler.pipeline | Crawler stopped.
+2026-07-22 06:35:54 | INFO    | crawler.pipeline | [manifold_times] crawling 1 list page(s)
+2026-07-22 06:35:59 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-07-22 06:36:11 | INFO    | crawler.pipeline | [manifold_times] 54 candidates, 54 new to fetch
+2026-07-22 06:36:16 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Singapore: High Court to hear Norvic Shipping Asia winding up applicat (8256252312c31c49.json)
+2026-07-22 06:36:26 | INFO    | crawler.pipeline | [manifold_times] saved [OK] World Fuel and partners complete first green methanol bunkering of car (ea3b9999338b899f.json)
+2026-07-22 06:36:37 | INFO    | crawler.pipeline | [manifold_times] saved [OK] HPA and MB Energy develop safety concept for STS ammonia bunkering (e0937e8c83b8316a.json)
+2026-07-22 06:36:45 | INFO    | crawler.pipeline | [manifold_times] saved [OK] GCMD: Project CAPTURED achieves two regulatory milestones for onboard  (748969fa0bc241ce.json)
+2026-07-22 06:36:57 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Alkagesta highlights key insights of Malta bunkering market in 2026 (10e42e81c5b4e0c5.json)
+2026-07-22 06:36:59 | INFO    | crawler.pipeline | [manifold_times] single cycle done, 5 new article(s)
+2026-07-22 06:36:59 | INFO    | crawler.pipeline | Final stats: {'total': 10, 'per_site': {'hk_marine_dept': 5, 'manifold_times': 5}}
+2026-07-22 06:36:59 | INFO    | crawler.pipeline | Crawler stopped.
+2026-07-22 06:37:34 | INFO    | crawler.pipeline | [people_daily] crawling 3 list page(s)
+2026-07-22 06:37:38 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-07-22 06:38:06 | INFO    | crawler.pipeline | [people_daily] 269 candidates, 269 new to fetch
+2026-07-22 06:38:10 | INFO    | crawler.pipeline | [people_daily] saved [OK] 深刻把握推动科技创新和产业创新深度融合的内在逻辑（深入学习贯彻习近平新时代中国特色社会主义思想） --观点--人民网 (01a46dda35b21a61.json)
+2026-07-22 06:38:17 | INFO    | crawler.pipeline | [people_daily] saved [OK] 加快实现高水平科技自立自强 --时政--人民网 (72f62d4f4cc69b84.json)
+2026-07-22 06:38:24 | INFO    | crawler.pipeline | [people_daily] saved [OK] 扎扎实实以科技创新支撑和引领中国式现代化 --观点--人民网 (7cdc300544a49525.json)
+2026-07-22 06:38:32 | INFO    | crawler.pipeline | [people_daily] saved [OK] 加快推进高水平科技自立自强 --观点--人民网 (2280a4bd18eafff8.json)
+2026-07-22 06:38:40 | INFO    | crawler.pipeline | [people_daily] saved [OK] 向着到2035年建成科技强国的目标坚定迈进 --观点--人民网 (2ba06ef049ee6562.json)
+2026-07-22 06:38:43 | INFO    | crawler.pipeline | [people_daily] single cycle done, 5 new article(s)
+2026-07-22 06:38:43 | INFO    | crawler.pipeline | Final stats: {'total': 15, 'per_site': {'hk_marine_dept': 5, 'manifold_times': 5, 'people_daily': 5}}
+2026-07-22 06:38:43 | INFO    | crawler.pipeline | Crawler stopped.
+2026-07-22 06:44:34 | INFO    | crawler.pipeline | [hket] crawling 2 list page(s)
+2026-07-22 06:44:38 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-07-22 06:46:46 | INFO    | crawler.pipeline | [hket] 0 candidates, 0 new to fetch
+2026-07-22 06:46:46 | INFO    | crawler.pipeline | [hket] single cycle done, 0 new article(s)
+2026-07-22 06:46:46 | INFO    | crawler.pipeline | [manifold_times] crawling 1 list page(s)
+2026-07-22 06:46:58 | INFO    | crawler.pipeline | [manifold_times] 54 candidates, 49 new to fetch
+2026-07-22 06:47:03 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Singapore withdraws remaining 127 charges against Hin Leong founder OK (c06e3749545c4347.json)
+2026-07-22 06:47:10 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Singapore: Coastal Logistics Pte Ltd to be wound up voluntarily (ffdbefa998612e67.json)
+2026-07-22 06:47:20 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Singapore: Liquidator of Nan Shan Maritime Pte Ltd issues notice of di (a034649c3d065e34.json)
+2026-07-22 06:47:30 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Singapore: Liquidator of Selco (Shipyard) Pte Limited issues notice of (0d54a21f9b7af222.json)
+2026-07-22 06:48:21 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Singapore: Liquidator of Selco (Shipyard) Pte Limited issues notice of (78ced418e66c24cb.json)
+2026-07-22 06:48:25 | INFO    | crawler.pipeline | [manifold_times] single cycle done, 5 new article(s)
+2026-07-22 06:48:25 | INFO    | crawler.pipeline | [hk_marine_dept] crawling 1 list page(s)
+2026-07-22 06:48:35 | INFO    | crawler.pipeline | [hk_marine_dept] 187 candidates, 182 new to fetch
+2026-07-22 06:48:38 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] AM730 8 January 2026 (Chinese Only) (3652b899ab295c31.json)
+2026-07-22 06:48:45 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Speech by STL at International Bunker Industry Association Annual Conv (c5c5b00d7bd6cd36.json)
+2026-07-22 06:48:52 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Speech by STL at Greater Bay Maritime Forum 2025 (with photo) (95473fe7a4f15307.json)
+2026-07-22 06:48:58 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Speech by STL at Hong Kong Maritime and Port Development Board Flagshi (de504db0f3a2497b.json)
+2026-07-22 06:49:05 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] STL meets with President of International Union of Marine Insurance (w (e94d83e62b2cbdb6.json)
+2026-07-22 06:49:09 | INFO    | crawler.pipeline | [hk_marine_dept] single cycle done, 5 new article(s)
+2026-07-22 06:49:09 | INFO    | crawler.pipeline | [scmp] crawling 2 list page(s)
+2026-07-22 06:50:55 | INFO    | crawler.pipeline | [scmp] 0 candidates, 0 new to fetch
+2026-07-22 06:50:55 | INFO    | crawler.pipeline | [scmp] single cycle done, 0 new article(s)
+2026-07-22 06:50:55 | INFO    | crawler.pipeline | [cnn] crawling 2 list page(s)
+2026-07-22 06:52:46 | INFO    | crawler.pipeline | [cnn] 0 candidates, 0 new to fetch
+2026-07-22 06:52:46 | INFO    | crawler.pipeline | [cnn] single cycle done, 0 new article(s)
+2026-07-22 06:52:46 | INFO    | crawler.pipeline | [reuters] crawling 2 list page(s)
+2026-07-22 06:54:41 | INFO    | crawler.pipeline | [reuters] 0 candidates, 0 new to fetch
+2026-07-22 06:54:41 | INFO    | crawler.pipeline | [reuters] single cycle done, 0 new article(s)
+2026-07-22 06:54:41 | INFO    | crawler.pipeline | [afp] crawling 1 list page(s)
+2026-07-22 06:54:54 | INFO    | crawler.pipeline | [afp] 0 candidates, 0 new to fetch
+2026-07-22 06:54:54 | INFO    | crawler.pipeline | [afp] single cycle done, 0 new article(s)
+2026-07-22 06:54:54 | INFO    | crawler.pipeline | [people_daily] crawling 3 list page(s)
+2026-07-22 06:55:16 | INFO    | crawler.pipeline | [people_daily] 270 candidates, 265 new to fetch
+2026-07-22 06:55:20 | INFO    | crawler.pipeline | [people_daily] saved [OK] “产业创新要提出科学问题”（人民论坛） --观点--人民网 (82ca85bc046bcd40.json)
+2026-07-22 06:55:28 | INFO    | crawler.pipeline | [people_daily] saved [OK] “努力让每个孩子都能享有公平而有质量的教育” --时政--人民网 (f4cac6b12ce86a6d.json)
+2026-07-22 06:55:37 | INFO    | crawler.pipeline | [people_daily] saved [OK] 中国外贸增势强劲、走势稳健（年中经济观察） --经济·科技--人民网 (761879fc61b2ddaa.json)
+2026-07-22 06:55:46 | INFO    | crawler.pipeline | [people_daily] saved [OK] 火热“中国游”彰显开放中国新气象（和音） --国际--人民网 (38456f2226d40d0b.json)
+2026-07-22 06:55:53 | INFO    | crawler.pipeline | [people_daily] saved [OK] 提升大灾巨灾应对处置能力（治理之道） --观点--人民网 (06c99552612f8d3e.json)
+2026-07-22 06:55:57 | INFO    | crawler.pipeline | [people_daily] single cycle done, 5 new article(s)
+2026-07-22 06:55:57 | INFO    | crawler.pipeline | [takungpao] crawling 2 list page(s)
+2026-07-22 06:56:17 | INFO    | crawler.pipeline | [takungpao] 0 candidates, 0 new to fetch
+2026-07-22 06:56:17 | INFO    | crawler.pipeline | [takungpao] single cycle done, 0 new article(s)
+2026-07-22 06:56:17 | INFO    | crawler.pipeline | Final stats: {'total': 30, 'per_site': {'hk_marine_dept': 10, 'manifold_times': 10, 'people_daily': 10}}
+2026-07-22 06:56:17 | INFO    | crawler.pipeline | Crawler stopped.
+2026-07-30 03:19:31 | INFO    | crawler.pipeline | [reuters] crawling 2 list page(s)
+2026-07-30 03:19:31 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): No module named 'undetected_chromedriver'
+2026-07-30 03:22:40 | INFO    | crawler.pipeline | [reuters] crawling 2 list page(s)
+2026-07-30 03:23:44 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): Message: session not created: cannot connect to chrome at 127.0.0.1:42001
+from chrome not reachable; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55c5f591083a <unknown>
+#1 0x55c5f5283d80 <unknown>
+#2 0x55c5f526f76c <unknown>
+#3 0x55c5f52c8a5e <unknown>
+#4 0x55c5f52bdd6f <unknown>
+#5 0x55c5f530e3be <unknown>
+#6 0x55c5f530daac <unknown>
+#7 0x55c5f52ccd32 <unknown>
+#8 0x55c5f52cdbb1 <unknown>
+#9 0x55c5f58d5bc0 <unknown>
+#10 0x55c5f58d423a <unknown>
+#11 0x55c5f58bec65 <unknown>
+#12 0x55c5f58d4efa <unknown>
+#13 0x55c5f58a6b60 <unknown>
+#14 0x55c5f58fc218 <unknown>
+#15 0x55c5f58fc3b5 <unknown>
+#16 0x55c5f590f3ee <unknown>
+#17 0x7fc868b54609 start_thread
+
+2026-07-30 03:23:47 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a7ae519c0a <unknown>
+#1 0x55a7adf0e649 <unknown>
+#2 0x55a7adf4c3dc <unknown>
+#3 0x55a7adf48f83 <unknown>
+#4 0x55a7adf977d2 <unknown>
+#5 0x55a7adf96f2c <unknown>
+#6 0x55a7adf566d9 <unknown>
+#7 0x55a7adf574f1 <unknown>
+#8 0x55a7ae4df5db <unknown>
+#9 0x55a7ae4de2e4 <unknown>
+#10 0x55a7ae4ca974 <unknown>
+#11 0x55a7ae4dea82 <unknown>
+#12 0x55a7ae4b44f7 <unknown>
+#13 0x55a7ae506378 <unknown>
+#14 0x55a7ae506566 <unknown>
+#15 0x55a7ae518777 <unknown>
+#16 0x7f3a74c3caa4 <unknown>
+#17 0x7f3a74cc9c6c <unknown>
+
+2026-07-30 03:23:47 | WARNING | crawler.pipeline | fetch attempt 1/3 failed for https://www.reuters.com/business/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a7ae519c0a <unknown>
+#1 0x55a7adf0e649 <unknown>
+#2 0x55a7adf4c3dc <unknown>
+#3 0x55a7adf48f83 <unknown>
+#4 0x55a7adf977d2 <unknown>
+#5 0x55a7adf96f2c <unknown>
+#6 0x55a7adf566d9 <unknown>
+#7 0x55a7adf574f1 <unknown>
+#8 0x55a7ae4df5db <unknown>
+#9 0x55a7ae4de2e4 <unknown>
+#10 0x55a7ae4ca974 <unknown>
+#11 0x55a7ae4dea82 <unknown>
+#12 0x55a7ae4b44f7 <unknown>
+#13 0x55a7ae506378 <unknown>
+#14 0x55a7ae506566 <unknown>
+#15 0x55a7ae518777 <unknown>
+#16 0x7f3a74c3caa4 <unknown>
+#17 0x7f3a74cc9c6c <unknown>
+
+2026-07-30 03:24:53 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): Message: session not created: cannot connect to chrome at 127.0.0.1:46057
+from chrome not reachable; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x56429692783a <unknown>
+#1 0x56429629ad80 <unknown>
+#2 0x56429628676c <unknown>
+#3 0x5642962dfa5e <unknown>
+#4 0x5642962d4d6f <unknown>
+#5 0x5642963253be <unknown>
+#6 0x564296324aac <unknown>
+#7 0x5642962e3d32 <unknown>
+#8 0x5642962e4bb1 <unknown>
+#9 0x5642968ecbc0 <unknown>
+#10 0x5642968eb23a <unknown>
+#11 0x5642968d5c65 <unknown>
+#12 0x5642968ebefa <unknown>
+#13 0x5642968bdb60 <unknown>
+#14 0x564296913218 <unknown>
+#15 0x5642969133b5 <unknown>
+#16 0x5642969263ee <unknown>
+#17 0x7fd955b89609 start_thread
+
+2026-07-30 03:24:54 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x563429e4ac0a <unknown>
+#1 0x56342983f649 <unknown>
+#2 0x56342987d3dc <unknown>
+#3 0x563429879f83 <unknown>
+#4 0x5634298c87d2 <unknown>
+#5 0x5634298c7f2c <unknown>
+#6 0x5634298876d9 <unknown>
+#7 0x5634298884f1 <unknown>
+#8 0x563429e105db <unknown>
+#9 0x563429e0f2e4 <unknown>
+#10 0x563429dfb974 <unknown>
+#11 0x563429e0fa82 <unknown>
+#12 0x563429de54f7 <unknown>
+#13 0x563429e37378 <unknown>
+#14 0x563429e37566 <unknown>
+#15 0x563429e49777 <unknown>
+#16 0x7fdf958f9aa4 <unknown>
+#17 0x7fdf95986c6c <unknown>
+
+2026-07-30 03:25:57 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): Message: session not created: cannot connect to chrome at 127.0.0.1:50521
+from chrome not reachable; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x556b178b683a <unknown>
+#1 0x556b17229d80 <unknown>
+#2 0x556b1721576c <unknown>
+#3 0x556b1726ea5e <unknown>
+#4 0x556b17263d6f <unknown>
+#5 0x556b172b43be <unknown>
+#6 0x556b172b3aac <unknown>
+#7 0x556b17272d32 <unknown>
+#8 0x556b17273bb1 <unknown>
+#9 0x556b1787bbc0 <unknown>
+#10 0x556b1787a23a <unknown>
+#11 0x556b17864c65 <unknown>
+#12 0x556b1787aefa <unknown>
+#13 0x556b1784cb60 <unknown>
+#14 0x556b178a2218 <unknown>
+#15 0x556b178a23b5 <unknown>
+#16 0x556b178b53ee <unknown>
+#17 0x7f26b19d8609 start_thread
+
+2026-07-30 03:25:58 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x558997ea4c0a <unknown>
+#1 0x558997899649 <unknown>
+#2 0x5589978d73dc <unknown>
+#3 0x5589978d3f83 <unknown>
+#4 0x5589979227d2 <unknown>
+#5 0x558997921f2c <unknown>
+#6 0x5589978e16d9 <unknown>
+#7 0x5589978e24f1 <unknown>
+#8 0x558997e6a5db <unknown>
+#9 0x558997e692e4 <unknown>
+#10 0x558997e55974 <unknown>
+#11 0x558997e69a82 <unknown>
+#12 0x558997e3f4f7 <unknown>
+#13 0x558997e91378 <unknown>
+#14 0x558997e91566 <unknown>
+#15 0x558997ea3777 <unknown>
+#16 0x7f6b81b7baa4 <unknown>
+#17 0x7f6b81c08c6c <unknown>
+
+2026-07-30 03:25:58 | WARNING | crawler.pipeline | fetch attempt 2/3 failed for https://www.reuters.com/business/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x558997ea4c0a <unknown>
+#1 0x558997899649 <unknown>
+#2 0x5589978d73dc <unknown>
+#3 0x5589978d3f83 <unknown>
+#4 0x5589979227d2 <unknown>
+#5 0x558997921f2c <unknown>
+#6 0x5589978e16d9 <unknown>
+#7 0x5589978e24f1 <unknown>
+#8 0x558997e6a5db <unknown>
+#9 0x558997e692e4 <unknown>
+#10 0x558997e55974 <unknown>
+#11 0x558997e69a82 <unknown>
+#12 0x558997e3f4f7 <unknown>
+#13 0x558997e91378 <unknown>
+#14 0x558997e91566 <unknown>
+#15 0x558997ea3777 <unknown>
+#16 0x7f6b81b7baa4 <unknown>
+#17 0x7f6b81c08c6c <unknown>
+
+2026-07-30 03:27:06 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): Message: session not created: cannot connect to chrome at 127.0.0.1:51983
+from chrome not reachable; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55fe5c17583a <unknown>
+#1 0x55fe5bae8d80 <unknown>
+#2 0x55fe5bad476c <unknown>
+#3 0x55fe5bb2da5e <unknown>
+#4 0x55fe5bb22d6f <unknown>
+#5 0x55fe5bb733be <unknown>
+#6 0x55fe5bb72aac <unknown>
+#7 0x55fe5bb31d32 <unknown>
+#8 0x55fe5bb32bb1 <unknown>
+#9 0x55fe5c13abc0 <unknown>
+#10 0x55fe5c13923a <unknown>
+#11 0x55fe5c123c65 <unknown>
+#12 0x55fe5c139efa <unknown>
+#13 0x55fe5c10bb60 <unknown>
+#14 0x55fe5c161218 <unknown>
+#15 0x55fe5c1613b5 <unknown>
+#16 0x55fe5c1743ee <unknown>
+#17 0x7f8b65ced609 start_thread
+
+2026-07-30 03:27:07 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a0cfd2bc0a <unknown>
+#1 0x55a0cf720649 <unknown>
+#2 0x55a0cf75e3dc <unknown>
+#3 0x55a0cf75af83 <unknown>
+#4 0x55a0cf7a97d2 <unknown>
+#5 0x55a0cf7a8f2c <unknown>
+#6 0x55a0cf7686d9 <unknown>
+#7 0x55a0cf7694f1 <unknown>
+#8 0x55a0cfcf15db <unknown>
+#9 0x55a0cfcf02e4 <unknown>
+#10 0x55a0cfcdc974 <unknown>
+#11 0x55a0cfcf0a82 <unknown>
+#12 0x55a0cfcc64f7 <unknown>
+#13 0x55a0cfd18378 <unknown>
+#14 0x55a0cfd18566 <unknown>
+#15 0x55a0cfd2a777 <unknown>
+#16 0x7fe403430aa4 <unknown>
+#17 0x7fe4034bdc6c <unknown>
+
+2026-07-30 03:30:23 | INFO    | crawler.pipeline | [reuters] crawling 2 list page(s)
+2026-07-30 03:32:33 | WARNING | crawler.browser | Failed to start Chrome (undetected=True): <urlopen error [Errno 110] Connection timed out>
+2026-07-30 03:35:05 | INFO    | crawler.pipeline | [reuters] crawling 2 list page(s)
+2026-08-02 03:50:08 | INFO    | crawler.pipeline | [manifold_times] crawling 1 list page(s)
+2026-08-02 03:50:13 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x563ca264ec0a <unknown>
+#1 0x563ca2043649 <unknown>
+#2 0x563ca20813dc <unknown>
+#3 0x563ca207df83 <unknown>
+#4 0x563ca20cc7d2 <unknown>
+#5 0x563ca20cbf2c <unknown>
+#6 0x563ca208b6d9 <unknown>
+#7 0x563ca208c4f1 <unknown>
+#8 0x563ca26145db <unknown>
+#9 0x563ca26132e4 <unknown>
+#10 0x563ca25ff974 <unknown>
+#11 0x563ca2613a82 <unknown>
+#12 0x563ca25e94f7 <unknown>
+#13 0x563ca263b378 <unknown>
+#14 0x563ca263b566 <unknown>
+#15 0x563ca264d777 <unknown>
+#16 0x7f6d132d5aa4 <unknown>
+#17 0x7f6d13362c6c <unknown>
+
+2026-08-02 03:50:13 | WARNING | crawler.pipeline | fetch attempt 1/3 failed for https://www.manifoldtimes.com/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x563ca264ec0a <unknown>
+#1 0x563ca2043649 <unknown>
+#2 0x563ca20813dc <unknown>
+#3 0x563ca207df83 <unknown>
+#4 0x563ca20cc7d2 <unknown>
+#5 0x563ca20cbf2c <unknown>
+#6 0x563ca208b6d9 <unknown>
+#7 0x563ca208c4f1 <unknown>
+#8 0x563ca26145db <unknown>
+#9 0x563ca26132e4 <unknown>
+#10 0x563ca25ff974 <unknown>
+#11 0x563ca2613a82 <unknown>
+#12 0x563ca25e94f7 <unknown>
+#13 0x563ca263b378 <unknown>
+#14 0x563ca263b566 <unknown>
+#15 0x563ca264d777 <unknown>
+#16 0x7f6d132d5aa4 <unknown>
+#17 0x7f6d13362c6c <unknown>
+
+2026-08-02 03:50:17 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55d45722dc0a <unknown>
+#1 0x55d456c22649 <unknown>
+#2 0x55d456c603dc <unknown>
+#3 0x55d456c5cf83 <unknown>
+#4 0x55d456cab7d2 <unknown>
+#5 0x55d456caaf2c <unknown>
+#6 0x55d456c6a6d9 <unknown>
+#7 0x55d456c6b4f1 <unknown>
+#8 0x55d4571f35db <unknown>
+#9 0x55d4571f22e4 <unknown>
+#10 0x55d4571de974 <unknown>
+#11 0x55d4571f2a82 <unknown>
+#12 0x55d4571c84f7 <unknown>
+#13 0x55d45721a378 <unknown>
+#14 0x55d45721a566 <unknown>
+#15 0x55d45722c777 <unknown>
+#16 0x7f8314dfeaa4 <unknown>
+#17 0x7f8314e8bc6c <unknown>
+
+2026-08-02 03:50:18 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a9baddac0a <unknown>
+#1 0x55a9ba7cf649 <unknown>
+#2 0x55a9ba80d3dc <unknown>
+#3 0x55a9ba809f83 <unknown>
+#4 0x55a9ba8587d2 <unknown>
+#5 0x55a9ba857f2c <unknown>
+#6 0x55a9ba8176d9 <unknown>
+#7 0x55a9ba8184f1 <unknown>
+#8 0x55a9bada05db <unknown>
+#9 0x55a9bad9f2e4 <unknown>
+#10 0x55a9bad8b974 <unknown>
+#11 0x55a9bad9fa82 <unknown>
+#12 0x55a9bad754f7 <unknown>
+#13 0x55a9badc7378 <unknown>
+#14 0x55a9badc7566 <unknown>
+#15 0x55a9badd9777 <unknown>
+#16 0x7ff998b76aa4 <unknown>
+#17 0x7ff998c03c6c <unknown>
+
+2026-08-02 03:50:18 | WARNING | crawler.pipeline | fetch attempt 2/3 failed for https://www.manifoldtimes.com/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a9baddac0a <unknown>
+#1 0x55a9ba7cf649 <unknown>
+#2 0x55a9ba80d3dc <unknown>
+#3 0x55a9ba809f83 <unknown>
+#4 0x55a9ba8587d2 <unknown>
+#5 0x55a9ba857f2c <unknown>
+#6 0x55a9ba8176d9 <unknown>
+#7 0x55a9ba8184f1 <unknown>
+#8 0x55a9bada05db <unknown>
+#9 0x55a9bad9f2e4 <unknown>
+#10 0x55a9bad8b974 <unknown>
+#11 0x55a9bad9fa82 <unknown>
+#12 0x55a9bad754f7 <unknown>
+#13 0x55a9badc7378 <unknown>
+#14 0x55a9badc7566 <unknown>
+#15 0x55a9badd9777 <unknown>
+#16 0x7ff998b76aa4 <unknown>
+#17 0x7ff998c03c6c <unknown>
+
+2026-08-02 03:50:23 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55638d6a9c0a <unknown>
+#1 0x55638d09e649 <unknown>
+#2 0x55638d0dc3dc <unknown>
+#3 0x55638d0d8f83 <unknown>
+#4 0x55638d1277d2 <unknown>
+#5 0x55638d126f2c <unknown>
+#6 0x55638d0e66d9 <unknown>
+#7 0x55638d0e74f1 <unknown>
+#8 0x55638d66f5db <unknown>
+#9 0x55638d66e2e4 <unknown>
+#10 0x55638d65a974 <unknown>
+#11 0x55638d66ea82 <unknown>
+#12 0x55638d6444f7 <unknown>
+#13 0x55638d696378 <unknown>
+#14 0x55638d696566 <unknown>
+#15 0x55638d6a8777 <unknown>
+#16 0x7f1d4edf3aa4 <unknown>
+#17 0x7f1d4ee80c6c <unknown>
+
+2026-08-02 03:50:25 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55ba25641c0a <unknown>
+#1 0x55ba25036649 <unknown>
+#2 0x55ba250743dc <unknown>
+#3 0x55ba25070f83 <unknown>
+#4 0x55ba250bf7d2 <unknown>
+#5 0x55ba250bef2c <unknown>
+#6 0x55ba2507e6d9 <unknown>
+#7 0x55ba2507f4f1 <unknown>
+#8 0x55ba256075db <unknown>
+#9 0x55ba256062e4 <unknown>
+#10 0x55ba255f2974 <unknown>
+#11 0x55ba25606a82 <unknown>
+#12 0x55ba255dc4f7 <unknown>
+#13 0x55ba2562e378 <unknown>
+#14 0x55ba2562e566 <unknown>
+#15 0x55ba25640777 <unknown>
+#16 0x7fde60d0eaa4 <unknown>
+#17 0x7fde60d9bc6c <unknown>
+
+2026-08-02 03:50:25 | WARNING | crawler.pipeline | fetch attempt 3/3 failed for https://www.manifoldtimes.com/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55ba25641c0a <unknown>
+#1 0x55ba25036649 <unknown>
+#2 0x55ba250743dc <unknown>
+#3 0x55ba25070f83 <unknown>
+#4 0x55ba250bf7d2 <unknown>
+#5 0x55ba250bef2c <unknown>
+#6 0x55ba2507e6d9 <unknown>
+#7 0x55ba2507f4f1 <unknown>
+#8 0x55ba256075db <unknown>
+#9 0x55ba256062e4 <unknown>
+#10 0x55ba255f2974 <unknown>
+#11 0x55ba25606a82 <unknown>
+#12 0x55ba255dc4f7 <unknown>
+#13 0x55ba2562e378 <unknown>
+#14 0x55ba2562e566 <unknown>
+#15 0x55ba25640777 <unknown>
+#16 0x7fde60d0eaa4 <unknown>
+#17 0x7fde60d9bc6c <unknown>
+
+2026-08-02 03:50:25 | WARNING | crawler.pipeline | [manifold_times] could not load list page https://www.manifoldtimes.com/
+2026-08-02 03:50:25 | INFO    | crawler.pipeline | [manifold_times] 0 candidates, 0 new to fetch
+2026-08-02 03:50:25 | INFO    | crawler.pipeline | [manifold_times] single cycle done, 0 new article(s)
+2026-08-02 03:50:25 | INFO    | crawler.pipeline | Final stats: {'total': 30, 'per_site': {'hk_marine_dept': 10, 'manifold_times': 10, 'people_daily': 10}}
+2026-08-02 03:50:25 | INFO    | crawler.pipeline | Crawler stopped.
+2026-08-02 03:50:26 | INFO    | crawler.pipeline | [hk_marine_dept] crawling 1 list page(s)
+2026-08-02 03:50:27 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55fbb3862c0a <unknown>
+#1 0x55fbb3257649 <unknown>
+#2 0x55fbb32953dc <unknown>
+#3 0x55fbb3291f83 <unknown>
+#4 0x55fbb32e07d2 <unknown>
+#5 0x55fbb32dff2c <unknown>
+#6 0x55fbb329f6d9 <unknown>
+#7 0x55fbb32a04f1 <unknown>
+#8 0x55fbb38285db <unknown>
+#9 0x55fbb38272e4 <unknown>
+#10 0x55fbb3813974 <unknown>
+#11 0x55fbb3827a82 <unknown>
+#12 0x55fbb37fd4f7 <unknown>
+#13 0x55fbb384f378 <unknown>
+#14 0x55fbb384f566 <unknown>
+#15 0x55fbb3861777 <unknown>
+#16 0x7f2eafad6aa4 <unknown>
+#17 0x7f2eafb63c6c <unknown>
+
+2026-08-02 03:50:27 | WARNING | crawler.pipeline | fetch attempt 1/3 failed for https://www.hkmpdb.gov.hk/en/news.html: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55fbb3862c0a <unknown>
+#1 0x55fbb3257649 <unknown>
+#2 0x55fbb32953dc <unknown>
+#3 0x55fbb3291f83 <unknown>
+#4 0x55fbb32e07d2 <unknown>
+#5 0x55fbb32dff2c <unknown>
+#6 0x55fbb329f6d9 <unknown>
+#7 0x55fbb32a04f1 <unknown>
+#8 0x55fbb38285db <unknown>
+#9 0x55fbb38272e4 <unknown>
+#10 0x55fbb3813974 <unknown>
+#11 0x55fbb3827a82 <unknown>
+#12 0x55fbb37fd4f7 <unknown>
+#13 0x55fbb384f378 <unknown>
+#14 0x55fbb384f566 <unknown>
+#15 0x55fbb3861777 <unknown>
+#16 0x7f2eafad6aa4 <unknown>
+#17 0x7f2eafb63c6c <unknown>
+
+2026-08-02 03:50:30 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55db760e7c0a <unknown>
+#1 0x55db75adc649 <unknown>
+#2 0x55db75b1a3dc <unknown>
+#3 0x55db75b16f83 <unknown>
+#4 0x55db75b657d2 <unknown>
+#5 0x55db75b64f2c <unknown>
+#6 0x55db75b246d9 <unknown>
+#7 0x55db75b254f1 <unknown>
+#8 0x55db760ad5db <unknown>
+#9 0x55db760ac2e4 <unknown>
+#10 0x55db76098974 <unknown>
+#11 0x55db760aca82 <unknown>
+#12 0x55db760824f7 <unknown>
+#13 0x55db760d4378 <unknown>
+#14 0x55db760d4566 <unknown>
+#15 0x55db760e6777 <unknown>
+#16 0x7fede5be7aa4 <unknown>
+#17 0x7fede5c74c6c <unknown>
+
+2026-08-02 03:50:32 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5629eb873c0a <unknown>
+#1 0x5629eb268649 <unknown>
+#2 0x5629eb2a63dc <unknown>
+#3 0x5629eb2a2f83 <unknown>
+#4 0x5629eb2f17d2 <unknown>
+#5 0x5629eb2f0f2c <unknown>
+#6 0x5629eb2b06d9 <unknown>
+#7 0x5629eb2b14f1 <unknown>
+#8 0x5629eb8395db <unknown>
+#9 0x5629eb8382e4 <unknown>
+#10 0x5629eb824974 <unknown>
+#11 0x5629eb838a82 <unknown>
+#12 0x5629eb80e4f7 <unknown>
+#13 0x5629eb860378 <unknown>
+#14 0x5629eb860566 <unknown>
+#15 0x5629eb872777 <unknown>
+#16 0x7f4322e56aa4 <unknown>
+#17 0x7f4322ee3c6c <unknown>
+
+2026-08-02 03:50:32 | WARNING | crawler.pipeline | fetch attempt 2/3 failed for https://www.hkmpdb.gov.hk/en/news.html: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5629eb873c0a <unknown>
+#1 0x5629eb268649 <unknown>
+#2 0x5629eb2a63dc <unknown>
+#3 0x5629eb2a2f83 <unknown>
+#4 0x5629eb2f17d2 <unknown>
+#5 0x5629eb2f0f2c <unknown>
+#6 0x5629eb2b06d9 <unknown>
+#7 0x5629eb2b14f1 <unknown>
+#8 0x5629eb8395db <unknown>
+#9 0x5629eb8382e4 <unknown>
+#10 0x5629eb824974 <unknown>
+#11 0x5629eb838a82 <unknown>
+#12 0x5629eb80e4f7 <unknown>
+#13 0x5629eb860378 <unknown>
+#14 0x5629eb860566 <unknown>
+#15 0x5629eb872777 <unknown>
+#16 0x7f4322e56aa4 <unknown>
+#17 0x7f4322ee3c6c <unknown>
+
+2026-08-02 03:50:37 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x556453bd4c0a <unknown>
+#1 0x5564535c9649 <unknown>
+#2 0x5564536073dc <unknown>
+#3 0x556453603f83 <unknown>
+#4 0x5564536527d2 <unknown>
+#5 0x556453651f2c <unknown>
+#6 0x5564536116d9 <unknown>
+#7 0x5564536124f1 <unknown>
+#8 0x556453b9a5db <unknown>
+#9 0x556453b992e4 <unknown>
+#10 0x556453b85974 <unknown>
+#11 0x556453b99a82 <unknown>
+#12 0x556453b6f4f7 <unknown>
+#13 0x556453bc1378 <unknown>
+#14 0x556453bc1566 <unknown>
+#15 0x556453bd3777 <unknown>
+#16 0x7f7d98442aa4 <unknown>
+#17 0x7f7d984cfc6c <unknown>
+
+2026-08-02 03:50:38 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x555f7930ec0a <unknown>
+#1 0x555f78d03649 <unknown>
+#2 0x555f78d413dc <unknown>
+#3 0x555f78d3df83 <unknown>
+#4 0x555f78d8c7d2 <unknown>
+#5 0x555f78d8bf2c <unknown>
+#6 0x555f78d4b6d9 <unknown>
+#7 0x555f78d4c4f1 <unknown>
+#8 0x555f792d45db <unknown>
+#9 0x555f792d32e4 <unknown>
+#10 0x555f792bf974 <unknown>
+#11 0x555f792d3a82 <unknown>
+#12 0x555f792a94f7 <unknown>
+#13 0x555f792fb378 <unknown>
+#14 0x555f792fb566 <unknown>
+#15 0x555f7930d777 <unknown>
+#16 0x7f47a0f40aa4 <unknown>
+#17 0x7f47a0fcdc6c <unknown>
+
+2026-08-02 03:50:38 | WARNING | crawler.pipeline | fetch attempt 3/3 failed for https://www.hkmpdb.gov.hk/en/news.html: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x555f7930ec0a <unknown>
+#1 0x555f78d03649 <unknown>
+#2 0x555f78d413dc <unknown>
+#3 0x555f78d3df83 <unknown>
+#4 0x555f78d8c7d2 <unknown>
+#5 0x555f78d8bf2c <unknown>
+#6 0x555f78d4b6d9 <unknown>
+#7 0x555f78d4c4f1 <unknown>
+#8 0x555f792d45db <unknown>
+#9 0x555f792d32e4 <unknown>
+#10 0x555f792bf974 <unknown>
+#11 0x555f792d3a82 <unknown>
+#12 0x555f792a94f7 <unknown>
+#13 0x555f792fb378 <unknown>
+#14 0x555f792fb566 <unknown>
+#15 0x555f7930d777 <unknown>
+#16 0x7f47a0f40aa4 <unknown>
+#17 0x7f47a0fcdc6c <unknown>
+
+2026-08-02 03:50:38 | WARNING | crawler.pipeline | [hk_marine_dept] could not load list page https://www.hkmpdb.gov.hk/en/news.html
+2026-08-02 03:50:38 | INFO    | crawler.pipeline | [hk_marine_dept] 0 candidates, 0 new to fetch
+2026-08-02 03:50:38 | INFO    | crawler.pipeline | [hk_marine_dept] single cycle done, 0 new article(s)
+2026-08-02 03:50:38 | INFO    | crawler.pipeline | Final stats: {'total': 30, 'per_site': {'hk_marine_dept': 10, 'manifold_times': 10, 'people_daily': 10}}
+2026-08-02 03:50:38 | INFO    | crawler.pipeline | Crawler stopped.
+2026-08-02 03:50:39 | INFO    | crawler.pipeline | [people_daily] crawling 3 list page(s)
+2026-08-02 03:50:40 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x559bdffebc0a <unknown>
+#1 0x559bdf9e0649 <unknown>
+#2 0x559bdfa1e3dc <unknown>
+#3 0x559bdfa1af83 <unknown>
+#4 0x559bdfa697d2 <unknown>
+#5 0x559bdfa68f2c <unknown>
+#6 0x559bdfa286d9 <unknown>
+#7 0x559bdfa294f1 <unknown>
+#8 0x559bdffb15db <unknown>
+#9 0x559bdffb02e4 <unknown>
+#10 0x559bdff9c974 <unknown>
+#11 0x559bdffb0a82 <unknown>
+#12 0x559bdff864f7 <unknown>
+#13 0x559bdffd8378 <unknown>
+#14 0x559bdffd8566 <unknown>
+#15 0x559bdffea777 <unknown>
+#16 0x7fc2c4dd8aa4 <unknown>
+#17 0x7fc2c4e65c6c <unknown>
+
+2026-08-02 03:50:40 | WARNING | crawler.pipeline | fetch attempt 1/3 failed for http://www.people.com.cn/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x559bdffebc0a <unknown>
+#1 0x559bdf9e0649 <unknown>
+#2 0x559bdfa1e3dc <unknown>
+#3 0x559bdfa1af83 <unknown>
+#4 0x559bdfa697d2 <unknown>
+#5 0x559bdfa68f2c <unknown>
+#6 0x559bdfa286d9 <unknown>
+#7 0x559bdfa294f1 <unknown>
+#8 0x559bdffb15db <unknown>
+#9 0x559bdffb02e4 <unknown>
+#10 0x559bdff9c974 <unknown>
+#11 0x559bdffb0a82 <unknown>
+#12 0x559bdff864f7 <unknown>
+#13 0x559bdffd8378 <unknown>
+#14 0x559bdffd8566 <unknown>
+#15 0x559bdffea777 <unknown>
+#16 0x7fc2c4dd8aa4 <unknown>
+#17 0x7fc2c4e65c6c <unknown>
+
+2026-08-02 03:50:44 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x56045ea9bc0a <unknown>
+#1 0x56045e490649 <unknown>
+#2 0x56045e4ce3dc <unknown>
+#3 0x56045e4caf83 <unknown>
+#4 0x56045e5197d2 <unknown>
+#5 0x56045e518f2c <unknown>
+#6 0x56045e4d86d9 <unknown>
+#7 0x56045e4d94f1 <unknown>
+#8 0x56045ea615db <unknown>
+#9 0x56045ea602e4 <unknown>
+#10 0x56045ea4c974 <unknown>
+#11 0x56045ea60a82 <unknown>
+#12 0x56045ea364f7 <unknown>
+#13 0x56045ea88378 <unknown>
+#14 0x56045ea88566 <unknown>
+#15 0x56045ea9a777 <unknown>
+#16 0x7fc950408aa4 <unknown>
+#17 0x7fc950495c6c <unknown>
+
+2026-08-02 03:50:45 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5603ab1f9c0a <unknown>
+#1 0x5603aabee649 <unknown>
+#2 0x5603aac2c3dc <unknown>
+#3 0x5603aac28f83 <unknown>
+#4 0x5603aac777d2 <unknown>
+#5 0x5603aac76f2c <unknown>
+#6 0x5603aac366d9 <unknown>
+#7 0x5603aac374f1 <unknown>
+#8 0x5603ab1bf5db <unknown>
+#9 0x5603ab1be2e4 <unknown>
+#10 0x5603ab1aa974 <unknown>
+#11 0x5603ab1bea82 <unknown>
+#12 0x5603ab1944f7 <unknown>
+#13 0x5603ab1e6378 <unknown>
+#14 0x5603ab1e6566 <unknown>
+#15 0x5603ab1f8777 <unknown>
+#16 0x7f0473fe7aa4 <unknown>
+#17 0x7f0474074c6c <unknown>
+
+2026-08-02 03:50:45 | WARNING | crawler.pipeline | fetch attempt 2/3 failed for http://www.people.com.cn/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5603ab1f9c0a <unknown>
+#1 0x5603aabee649 <unknown>
+#2 0x5603aac2c3dc <unknown>
+#3 0x5603aac28f83 <unknown>
+#4 0x5603aac777d2 <unknown>
+#5 0x5603aac76f2c <unknown>
+#6 0x5603aac366d9 <unknown>
+#7 0x5603aac374f1 <unknown>
+#8 0x5603ab1bf5db <unknown>
+#9 0x5603ab1be2e4 <unknown>
+#10 0x5603ab1aa974 <unknown>
+#11 0x5603ab1bea82 <unknown>
+#12 0x5603ab1944f7 <unknown>
+#13 0x5603ab1e6378 <unknown>
+#14 0x5603ab1e6566 <unknown>
+#15 0x5603ab1f8777 <unknown>
+#16 0x7f0473fe7aa4 <unknown>
+#17 0x7f0474074c6c <unknown>
+
+2026-08-02 03:50:50 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x557965c05c0a <unknown>
+#1 0x5579655fa649 <unknown>
+#2 0x5579656383dc <unknown>
+#3 0x557965634f83 <unknown>
+#4 0x5579656837d2 <unknown>
+#5 0x557965682f2c <unknown>
+#6 0x5579656426d9 <unknown>
+#7 0x5579656434f1 <unknown>
+#8 0x557965bcb5db <unknown>
+#9 0x557965bca2e4 <unknown>
+#10 0x557965bb6974 <unknown>
+#11 0x557965bcaa82 <unknown>
+#12 0x557965ba04f7 <unknown>
+#13 0x557965bf2378 <unknown>
+#14 0x557965bf2566 <unknown>
+#15 0x557965c04777 <unknown>
+#16 0x7f847be1eaa4 <unknown>
+#17 0x7f847beabc6c <unknown>
+
+2026-08-02 03:50:52 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x562af6243c0a <unknown>
+#1 0x562af5c38649 <unknown>
+#2 0x562af5c763dc <unknown>
+#3 0x562af5c72f83 <unknown>
+#4 0x562af5cc17d2 <unknown>
+#5 0x562af5cc0f2c <unknown>
+#6 0x562af5c806d9 <unknown>
+#7 0x562af5c814f1 <unknown>
+#8 0x562af62095db <unknown>
+#9 0x562af62082e4 <unknown>
+#10 0x562af61f4974 <unknown>
+#11 0x562af6208a82 <unknown>
+#12 0x562af61de4f7 <unknown>
+#13 0x562af6230378 <unknown>
+#14 0x562af6230566 <unknown>
+#15 0x562af6242777 <unknown>
+#16 0x7f51f9f8daa4 <unknown>
+#17 0x7f51fa01ac6c <unknown>
+
+2026-08-02 03:50:52 | WARNING | crawler.pipeline | fetch attempt 3/3 failed for http://www.people.com.cn/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x562af6243c0a <unknown>
+#1 0x562af5c38649 <unknown>
+#2 0x562af5c763dc <unknown>
+#3 0x562af5c72f83 <unknown>
+#4 0x562af5cc17d2 <unknown>
+#5 0x562af5cc0f2c <unknown>
+#6 0x562af5c806d9 <unknown>
+#7 0x562af5c814f1 <unknown>
+#8 0x562af62095db <unknown>
+#9 0x562af62082e4 <unknown>
+#10 0x562af61f4974 <unknown>
+#11 0x562af6208a82 <unknown>
+#12 0x562af61de4f7 <unknown>
+#13 0x562af6230378 <unknown>
+#14 0x562af6230566 <unknown>
+#15 0x562af6242777 <unknown>
+#16 0x7f51f9f8daa4 <unknown>
+#17 0x7f51fa01ac6c <unknown>
+
+2026-08-02 03:50:52 | WARNING | crawler.pipeline | [people_daily] could not load list page http://www.people.com.cn/
+2026-08-02 03:50:53 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x560cacc4cc0a <unknown>
+#1 0x560cac641649 <unknown>
+#2 0x560cac67f3dc <unknown>
+#3 0x560cac67bf83 <unknown>
+#4 0x560cac6ca7d2 <unknown>
+#5 0x560cac6c9f2c <unknown>
+#6 0x560cac6896d9 <unknown>
+#7 0x560cac68a4f1 <unknown>
+#8 0x560cacc125db <unknown>
+#9 0x560cacc112e4 <unknown>
+#10 0x560cacbfd974 <unknown>
+#11 0x560cacc11a82 <unknown>
+#12 0x560cacbe74f7 <unknown>
+#13 0x560cacc39378 <unknown>
+#14 0x560cacc39566 <unknown>
+#15 0x560cacc4b777 <unknown>
+#16 0x7ff91d3ddaa4 <unknown>
+#17 0x7ff91d46ac6c <unknown>
+
+2026-08-02 03:50:53 | WARNING | crawler.pipeline | fetch attempt 1/3 failed for http://world.people.com.cn/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x560cacc4cc0a <unknown>
+#1 0x560cac641649 <unknown>
+#2 0x560cac67f3dc <unknown>
+#3 0x560cac67bf83 <unknown>
+#4 0x560cac6ca7d2 <unknown>
+#5 0x560cac6c9f2c <unknown>
+#6 0x560cac6896d9 <unknown>
+#7 0x560cac68a4f1 <unknown>
+#8 0x560cacc125db <unknown>
+#9 0x560cacc112e4 <unknown>
+#10 0x560cacbfd974 <unknown>
+#11 0x560cacc11a82 <unknown>
+#12 0x560cacbe74f7 <unknown>
+#13 0x560cacc39378 <unknown>
+#14 0x560cacc39566 <unknown>
+#15 0x560cacc4b777 <unknown>
+#16 0x7ff91d3ddaa4 <unknown>
+#17 0x7ff91d46ac6c <unknown>
+
+2026-08-02 03:50:57 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55b5ac245c0a <unknown>
+#1 0x55b5abc3a649 <unknown>
+#2 0x55b5abc783dc <unknown>
+#3 0x55b5abc74f83 <unknown>
+#4 0x55b5abcc37d2 <unknown>
+#5 0x55b5abcc2f2c <unknown>
+#6 0x55b5abc826d9 <unknown>
+#7 0x55b5abc834f1 <unknown>
+#8 0x55b5ac20b5db <unknown>
+#9 0x55b5ac20a2e4 <unknown>
+#10 0x55b5ac1f6974 <unknown>
+#11 0x55b5ac20aa82 <unknown>
+#12 0x55b5ac1e04f7 <unknown>
+#13 0x55b5ac232378 <unknown>
+#14 0x55b5ac232566 <unknown>
+#15 0x55b5ac244777 <unknown>
+#16 0x7f6d59c95aa4 <unknown>
+#17 0x7f6d59d22c6c <unknown>
+
+2026-08-02 03:50:58 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x557ced4ddc0a <unknown>
+#1 0x557ceced2649 <unknown>
+#2 0x557cecf103dc <unknown>
+#3 0x557cecf0cf83 <unknown>
+#4 0x557cecf5b7d2 <unknown>
+#5 0x557cecf5af2c <unknown>
+#6 0x557cecf1a6d9 <unknown>
+#7 0x557cecf1b4f1 <unknown>
+#8 0x557ced4a35db <unknown>
+#9 0x557ced4a22e4 <unknown>
+#10 0x557ced48e974 <unknown>
+#11 0x557ced4a2a82 <unknown>
+#12 0x557ced4784f7 <unknown>
+#13 0x557ced4ca378 <unknown>
+#14 0x557ced4ca566 <unknown>
+#15 0x557ced4dc777 <unknown>
+#16 0x7fe6ff47baa4 <unknown>
+#17 0x7fe6ff508c6c <unknown>
+
+2026-08-02 03:50:58 | WARNING | crawler.pipeline | fetch attempt 2/3 failed for http://world.people.com.cn/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x557ced4ddc0a <unknown>
+#1 0x557ceced2649 <unknown>
+#2 0x557cecf103dc <unknown>
+#3 0x557cecf0cf83 <unknown>
+#4 0x557cecf5b7d2 <unknown>
+#5 0x557cecf5af2c <unknown>
+#6 0x557cecf1a6d9 <unknown>
+#7 0x557cecf1b4f1 <unknown>
+#8 0x557ced4a35db <unknown>
+#9 0x557ced4a22e4 <unknown>
+#10 0x557ced48e974 <unknown>
+#11 0x557ced4a2a82 <unknown>
+#12 0x557ced4784f7 <unknown>
+#13 0x557ced4ca378 <unknown>
+#14 0x557ced4ca566 <unknown>
+#15 0x557ced4dc777 <unknown>
+#16 0x7fe6ff47baa4 <unknown>
+#17 0x7fe6ff508c6c <unknown>
+
+2026-08-02 03:51:03 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55c7c67f7c0a <unknown>
+#1 0x55c7c61ec649 <unknown>
+#2 0x55c7c622a3dc <unknown>
+#3 0x55c7c6226f83 <unknown>
+#4 0x55c7c62757d2 <unknown>
+#5 0x55c7c6274f2c <unknown>
+#6 0x55c7c62346d9 <unknown>
+#7 0x55c7c62354f1 <unknown>
+#8 0x55c7c67bd5db <unknown>
+#9 0x55c7c67bc2e4 <unknown>
+#10 0x55c7c67a8974 <unknown>
+#11 0x55c7c67bca82 <unknown>
+#12 0x55c7c67924f7 <unknown>
+#13 0x55c7c67e4378 <unknown>
+#14 0x55c7c67e4566 <unknown>
+#15 0x55c7c67f6777 <unknown>
+#16 0x7f9accb81aa4 <unknown>
+#17 0x7f9accc0ec6c <unknown>
+
+2026-08-02 03:51:05 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x565130e0cc0a <unknown>
+#1 0x565130801649 <unknown>
+#2 0x56513083f3dc <unknown>
+#3 0x56513083bf83 <unknown>
+#4 0x56513088a7d2 <unknown>
+#5 0x565130889f2c <unknown>
+#6 0x5651308496d9 <unknown>
+#7 0x56513084a4f1 <unknown>
+#8 0x565130dd25db <unknown>
+#9 0x565130dd12e4 <unknown>
+#10 0x565130dbd974 <unknown>
+#11 0x565130dd1a82 <unknown>
+#12 0x565130da74f7 <unknown>
+#13 0x565130df9378 <unknown>
+#14 0x565130df9566 <unknown>
+#15 0x565130e0b777 <unknown>
+#16 0x7f1e8516baa4 <unknown>
+#17 0x7f1e851f8c6c <unknown>
+
+2026-08-02 03:51:05 | WARNING | crawler.pipeline | fetch attempt 3/3 failed for http://world.people.com.cn/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x565130e0cc0a <unknown>
+#1 0x565130801649 <unknown>
+#2 0x56513083f3dc <unknown>
+#3 0x56513083bf83 <unknown>
+#4 0x56513088a7d2 <unknown>
+#5 0x565130889f2c <unknown>
+#6 0x5651308496d9 <unknown>
+#7 0x56513084a4f1 <unknown>
+#8 0x565130dd25db <unknown>
+#9 0x565130dd12e4 <unknown>
+#10 0x565130dbd974 <unknown>
+#11 0x565130dd1a82 <unknown>
+#12 0x565130da74f7 <unknown>
+#13 0x565130df9378 <unknown>
+#14 0x565130df9566 <unknown>
+#15 0x565130e0b777 <unknown>
+#16 0x7f1e8516baa4 <unknown>
+#17 0x7f1e851f8c6c <unknown>
+
+2026-08-02 03:51:05 | WARNING | crawler.pipeline | [people_daily] could not load list page http://world.people.com.cn/
+2026-08-02 03:51:06 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x565065765c0a <unknown>
+#1 0x56506515a649 <unknown>
+#2 0x5650651983dc <unknown>
+#3 0x565065194f83 <unknown>
+#4 0x5650651e37d2 <unknown>
+#5 0x5650651e2f2c <unknown>
+#6 0x5650651a26d9 <unknown>
+#7 0x5650651a34f1 <unknown>
+#8 0x56506572b5db <unknown>
+#9 0x56506572a2e4 <unknown>
+#10 0x565065716974 <unknown>
+#11 0x56506572aa82 <unknown>
+#12 0x5650657004f7 <unknown>
+#13 0x565065752378 <unknown>
+#14 0x565065752566 <unknown>
+#15 0x565065764777 <unknown>
+#16 0x7fd314f6daa4 <unknown>
+#17 0x7fd314ffac6c <unknown>
+
+2026-08-02 03:51:06 | WARNING | crawler.pipeline | fetch attempt 1/3 failed for http://finance.people.com.cn/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x565065765c0a <unknown>
+#1 0x56506515a649 <unknown>
+#2 0x5650651983dc <unknown>
+#3 0x565065194f83 <unknown>
+#4 0x5650651e37d2 <unknown>
+#5 0x5650651e2f2c <unknown>
+#6 0x5650651a26d9 <unknown>
+#7 0x5650651a34f1 <unknown>
+#8 0x56506572b5db <unknown>
+#9 0x56506572a2e4 <unknown>
+#10 0x565065716974 <unknown>
+#11 0x56506572aa82 <unknown>
+#12 0x5650657004f7 <unknown>
+#13 0x565065752378 <unknown>
+#14 0x565065752566 <unknown>
+#15 0x565065764777 <unknown>
+#16 0x7fd314f6daa4 <unknown>
+#17 0x7fd314ffac6c <unknown>
+
+2026-08-02 03:51:09 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5564af131c0a <unknown>
+#1 0x5564aeb26649 <unknown>
+#2 0x5564aeb643dc <unknown>
+#3 0x5564aeb60f83 <unknown>
+#4 0x5564aebaf7d2 <unknown>
+#5 0x5564aebaef2c <unknown>
+#6 0x5564aeb6e6d9 <unknown>
+#7 0x5564aeb6f4f1 <unknown>
+#8 0x5564af0f75db <unknown>
+#9 0x5564af0f62e4 <unknown>
+#10 0x5564af0e2974 <unknown>
+#11 0x5564af0f6a82 <unknown>
+#12 0x5564af0cc4f7 <unknown>
+#13 0x5564af11e378 <unknown>
+#14 0x5564af11e566 <unknown>
+#15 0x5564af130777 <unknown>
+#16 0x7f0001c2caa4 <unknown>
+#17 0x7f0001cb9c6c <unknown>
+
+2026-08-02 03:51:11 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55b03afd3c0a <unknown>
+#1 0x55b03a9c8649 <unknown>
+#2 0x55b03aa063dc <unknown>
+#3 0x55b03aa02f83 <unknown>
+#4 0x55b03aa517d2 <unknown>
+#5 0x55b03aa50f2c <unknown>
+#6 0x55b03aa106d9 <unknown>
+#7 0x55b03aa114f1 <unknown>
+#8 0x55b03af995db <unknown>
+#9 0x55b03af982e4 <unknown>
+#10 0x55b03af84974 <unknown>
+#11 0x55b03af98a82 <unknown>
+#12 0x55b03af6e4f7 <unknown>
+#13 0x55b03afc0378 <unknown>
+#14 0x55b03afc0566 <unknown>
+#15 0x55b03afd2777 <unknown>
+#16 0x7fd2e0275aa4 <unknown>
+#17 0x7fd2e0302c6c <unknown>
+
+2026-08-02 03:51:11 | WARNING | crawler.pipeline | fetch attempt 2/3 failed for http://finance.people.com.cn/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55b03afd3c0a <unknown>
+#1 0x55b03a9c8649 <unknown>
+#2 0x55b03aa063dc <unknown>
+#3 0x55b03aa02f83 <unknown>
+#4 0x55b03aa517d2 <unknown>
+#5 0x55b03aa50f2c <unknown>
+#6 0x55b03aa106d9 <unknown>
+#7 0x55b03aa114f1 <unknown>
+#8 0x55b03af995db <unknown>
+#9 0x55b03af982e4 <unknown>
+#10 0x55b03af84974 <unknown>
+#11 0x55b03af98a82 <unknown>
+#12 0x55b03af6e4f7 <unknown>
+#13 0x55b03afc0378 <unknown>
+#14 0x55b03afc0566 <unknown>
+#15 0x55b03afd2777 <unknown>
+#16 0x7fd2e0275aa4 <unknown>
+#17 0x7fd2e0302c6c <unknown>
+
+2026-08-02 03:51:16 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x56283ac8bc0a <unknown>
+#1 0x56283a680649 <unknown>
+#2 0x56283a6be3dc <unknown>
+#3 0x56283a6baf83 <unknown>
+#4 0x56283a7097d2 <unknown>
+#5 0x56283a708f2c <unknown>
+#6 0x56283a6c86d9 <unknown>
+#7 0x56283a6c94f1 <unknown>
+#8 0x56283ac515db <unknown>
+#9 0x56283ac502e4 <unknown>
+#10 0x56283ac3c974 <unknown>
+#11 0x56283ac50a82 <unknown>
+#12 0x56283ac264f7 <unknown>
+#13 0x56283ac78378 <unknown>
+#14 0x56283ac78566 <unknown>
+#15 0x56283ac8a777 <unknown>
+#16 0x7fc6baa66aa4 <unknown>
+#17 0x7fc6baaf3c6c <unknown>
+
+2026-08-02 03:51:17 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a05fbbbc0a <unknown>
+#1 0x55a05f5b0649 <unknown>
+#2 0x55a05f5ee3dc <unknown>
+#3 0x55a05f5eaf83 <unknown>
+#4 0x55a05f6397d2 <unknown>
+#5 0x55a05f638f2c <unknown>
+#6 0x55a05f5f86d9 <unknown>
+#7 0x55a05f5f94f1 <unknown>
+#8 0x55a05fb815db <unknown>
+#9 0x55a05fb802e4 <unknown>
+#10 0x55a05fb6c974 <unknown>
+#11 0x55a05fb80a82 <unknown>
+#12 0x55a05fb564f7 <unknown>
+#13 0x55a05fba8378 <unknown>
+#14 0x55a05fba8566 <unknown>
+#15 0x55a05fbba777 <unknown>
+#16 0x7fc48e8b8aa4 <unknown>
+#17 0x7fc48e945c6c <unknown>
+
+2026-08-02 03:51:17 | WARNING | crawler.pipeline | fetch attempt 3/3 failed for http://finance.people.com.cn/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55a05fbbbc0a <unknown>
+#1 0x55a05f5b0649 <unknown>
+#2 0x55a05f5ee3dc <unknown>
+#3 0x55a05f5eaf83 <unknown>
+#4 0x55a05f6397d2 <unknown>
+#5 0x55a05f638f2c <unknown>
+#6 0x55a05f5f86d9 <unknown>
+#7 0x55a05f5f94f1 <unknown>
+#8 0x55a05fb815db <unknown>
+#9 0x55a05fb802e4 <unknown>
+#10 0x55a05fb6c974 <unknown>
+#11 0x55a05fb80a82 <unknown>
+#12 0x55a05fb564f7 <unknown>
+#13 0x55a05fba8378 <unknown>
+#14 0x55a05fba8566 <unknown>
+#15 0x55a05fbba777 <unknown>
+#16 0x7fc48e8b8aa4 <unknown>
+#17 0x7fc48e945c6c <unknown>
+
+2026-08-02 03:51:17 | WARNING | crawler.pipeline | [people_daily] could not load list page http://finance.people.com.cn/
+2026-08-02 03:51:17 | INFO    | crawler.pipeline | [people_daily] 0 candidates, 0 new to fetch
+2026-08-02 03:51:17 | INFO    | crawler.pipeline | [people_daily] single cycle done, 0 new article(s)
+2026-08-02 03:51:17 | INFO    | crawler.pipeline | Final stats: {'total': 30, 'per_site': {'hk_marine_dept': 10, 'manifold_times': 10, 'people_daily': 10}}
+2026-08-02 03:51:17 | INFO    | crawler.pipeline | Crawler stopped.
+2026-08-02 03:59:37 | INFO    | crawler.pipeline | [manifold_times] crawling 1 list page(s)
+2026-08-02 03:59:38 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x561249b10c0a <unknown>
+#1 0x561249505649 <unknown>
+#2 0x5612495433dc <unknown>
+#3 0x56124953ff83 <unknown>
+#4 0x56124958e7d2 <unknown>
+#5 0x56124958df2c <unknown>
+#6 0x56124954d6d9 <unknown>
+#7 0x56124954e4f1 <unknown>
+#8 0x561249ad65db <unknown>
+#9 0x561249ad52e4 <unknown>
+#10 0x561249ac1974 <unknown>
+#11 0x561249ad5a82 <unknown>
+#12 0x561249aab4f7 <unknown>
+#13 0x561249afd378 <unknown>
+#14 0x561249afd566 <unknown>
+#15 0x561249b0f777 <unknown>
+#16 0x7f4398e6eaa4 <unknown>
+#17 0x7f4398efbc6c <unknown>
+
+2026-08-02 03:59:38 | WARNING | crawler.pipeline | fetch attempt 1/3 failed for https://www.manifoldtimes.com/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x561249b10c0a <unknown>
+#1 0x561249505649 <unknown>
+#2 0x5612495433dc <unknown>
+#3 0x56124953ff83 <unknown>
+#4 0x56124958e7d2 <unknown>
+#5 0x56124958df2c <unknown>
+#6 0x56124954d6d9 <unknown>
+#7 0x56124954e4f1 <unknown>
+#8 0x561249ad65db <unknown>
+#9 0x561249ad52e4 <unknown>
+#10 0x561249ac1974 <unknown>
+#11 0x561249ad5a82 <unknown>
+#12 0x561249aab4f7 <unknown>
+#13 0x561249afd378 <unknown>
+#14 0x561249afd566 <unknown>
+#15 0x561249b0f777 <unknown>
+#16 0x7f4398e6eaa4 <unknown>
+#17 0x7f4398efbc6c <unknown>
+
+2026-08-02 03:59:42 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55d2756cdc0a <unknown>
+#1 0x55d2750c2649 <unknown>
+#2 0x55d2751003dc <unknown>
+#3 0x55d2750fcf83 <unknown>
+#4 0x55d27514b7d2 <unknown>
+#5 0x55d27514af2c <unknown>
+#6 0x55d27510a6d9 <unknown>
+#7 0x55d27510b4f1 <unknown>
+#8 0x55d2756935db <unknown>
+#9 0x55d2756922e4 <unknown>
+#10 0x55d27567e974 <unknown>
+#11 0x55d275692a82 <unknown>
+#12 0x55d2756684f7 <unknown>
+#13 0x55d2756ba378 <unknown>
+#14 0x55d2756ba566 <unknown>
+#15 0x55d2756cc777 <unknown>
+#16 0x7f70a2b0daa4 <unknown>
+#17 0x7f70a2b9ac6c <unknown>
+
+2026-08-02 03:59:43 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5603a6daac0a <unknown>
+#1 0x5603a679f649 <unknown>
+#2 0x5603a67dd3dc <unknown>
+#3 0x5603a67d9f83 <unknown>
+#4 0x5603a68287d2 <unknown>
+#5 0x5603a6827f2c <unknown>
+#6 0x5603a67e76d9 <unknown>
+#7 0x5603a67e84f1 <unknown>
+#8 0x5603a6d705db <unknown>
+#9 0x5603a6d6f2e4 <unknown>
+#10 0x5603a6d5b974 <unknown>
+#11 0x5603a6d6fa82 <unknown>
+#12 0x5603a6d454f7 <unknown>
+#13 0x5603a6d97378 <unknown>
+#14 0x5603a6d97566 <unknown>
+#15 0x5603a6da9777 <unknown>
+#16 0x7f286142aaa4 <unknown>
+#17 0x7f28614b7c6c <unknown>
+
+2026-08-02 03:59:43 | WARNING | crawler.pipeline | fetch attempt 2/3 failed for https://www.manifoldtimes.com/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x5603a6daac0a <unknown>
+#1 0x5603a679f649 <unknown>
+#2 0x5603a67dd3dc <unknown>
+#3 0x5603a67d9f83 <unknown>
+#4 0x5603a68287d2 <unknown>
+#5 0x5603a6827f2c <unknown>
+#6 0x5603a67e76d9 <unknown>
+#7 0x5603a67e84f1 <unknown>
+#8 0x5603a6d705db <unknown>
+#9 0x5603a6d6f2e4 <unknown>
+#10 0x5603a6d5b974 <unknown>
+#11 0x5603a6d6fa82 <unknown>
+#12 0x5603a6d454f7 <unknown>
+#13 0x5603a6d97378 <unknown>
+#14 0x5603a6d97566 <unknown>
+#15 0x5603a6da9777 <unknown>
+#16 0x7f286142aaa4 <unknown>
+#17 0x7f28614b7c6c <unknown>
+
+2026-08-02 03:59:48 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55d8b7630c0a <unknown>
+#1 0x55d8b7025649 <unknown>
+#2 0x55d8b70633dc <unknown>
+#3 0x55d8b705ff83 <unknown>
+#4 0x55d8b70ae7d2 <unknown>
+#5 0x55d8b70adf2c <unknown>
+#6 0x55d8b706d6d9 <unknown>
+#7 0x55d8b706e4f1 <unknown>
+#8 0x55d8b75f65db <unknown>
+#9 0x55d8b75f52e4 <unknown>
+#10 0x55d8b75e1974 <unknown>
+#11 0x55d8b75f5a82 <unknown>
+#12 0x55d8b75cb4f7 <unknown>
+#13 0x55d8b761d378 <unknown>
+#14 0x55d8b761d566 <unknown>
+#15 0x55d8b762f777 <unknown>
+#16 0x7fc6f4df8aa4 <unknown>
+#17 0x7fc6f4e85c6c <unknown>
+
+2026-08-02 03:59:50 | WARNING | crawler.browser | Failed to start Chrome (undetected=False): Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55d8f3b58c0a <unknown>
+#1 0x55d8f354d649 <unknown>
+#2 0x55d8f358b3dc <unknown>
+#3 0x55d8f3587f83 <unknown>
+#4 0x55d8f35d67d2 <unknown>
+#5 0x55d8f35d5f2c <unknown>
+#6 0x55d8f35956d9 <unknown>
+#7 0x55d8f35964f1 <unknown>
+#8 0x55d8f3b1e5db <unknown>
+#9 0x55d8f3b1d2e4 <unknown>
+#10 0x55d8f3b09974 <unknown>
+#11 0x55d8f3b1da82 <unknown>
+#12 0x55d8f3af34f7 <unknown>
+#13 0x55d8f3b45378 <unknown>
+#14 0x55d8f3b45566 <unknown>
+#15 0x55d8f3b57777 <unknown>
+#16 0x7fbec4098aa4 <unknown>
+#17 0x7fbec4125c6c <unknown>
+
+2026-08-02 03:59:50 | WARNING | crawler.pipeline | fetch attempt 3/3 failed for https://www.manifoldtimes.com/: Could not start Chrome driver: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55d8f3b58c0a <unknown>
+#1 0x55d8f354d649 <unknown>
+#2 0x55d8f358b3dc <unknown>
+#3 0x55d8f3587f83 <unknown>
+#4 0x55d8f35d67d2 <unknown>
+#5 0x55d8f35d5f2c <unknown>
+#6 0x55d8f35956d9 <unknown>
+#7 0x55d8f35964f1 <unknown>
+#8 0x55d8f3b1e5db <unknown>
+#9 0x55d8f3b1d2e4 <unknown>
+#10 0x55d8f3b09974 <unknown>
+#11 0x55d8f3b1da82 <unknown>
+#12 0x55d8f3af34f7 <unknown>
+#13 0x55d8f3b45378 <unknown>
+#14 0x55d8f3b45566 <unknown>
+#15 0x55d8f3b57777 <unknown>
+#16 0x7fbec4098aa4 <unknown>
+#17 0x7fbec4125c6c <unknown>
+
+2026-08-02 03:59:50 | WARNING | crawler.pipeline | [manifold_times] could not load list page https://www.manifoldtimes.com/
+2026-08-02 03:59:50 | INFO    | crawler.pipeline | [manifold_times] 0 candidates, 0 new to fetch
+2026-08-02 03:59:50 | INFO    | crawler.pipeline | [manifold_times] single cycle done, 0 new article(s)
+2026-08-02 03:59:50 | INFO    | crawler.pipeline | Final stats: {'total': 30, 'per_site': {'hk_marine_dept': 10, 'manifold_times': 10, 'people_daily': 10}}
+2026-08-02 03:59:50 | INFO    | crawler.pipeline | Crawler stopped.
+2026-08-02 04:01:51 | INFO    | crawler.pipeline | [manifold_times] crawling 1 list page(s)
+2026-08-02 04:01:53 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-08-02 04:02:05 | INFO    | crawler.pipeline | [manifold_times] 57 candidates, 53 new to fetch
+2026-08-02 04:02:09 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Q&amp;A: DNV’s Piyush Raj on building AI capabilities for maritime pro (02d886ef56bfd556.json)
+2026-08-02 04:02:59 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Q&amp;A: DNV’s Piyush Raj on building AI capabilities for maritime pro (e1d9de53e828730e.json)
+2026-08-02 04:03:10 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Singapore: Company, director to be charged over flag registration serv (02dec1d6be9d7349.json)
+2026-08-02 04:03:20 | INFO    | crawler.pipeline | [manifold_times] saved [OK] German firm IBT Bunkering &amp; Trading establishes Singapore presence (51057655fe00ce5f.json)
+2026-08-02 04:03:30 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Brazil launches public consultation on biofuel bunkering rules overhau (68576b783994ca00.json)
+2026-08-02 04:03:35 | INFO    | crawler.pipeline | [manifold_times] single cycle done, 5 new article(s)
+2026-08-02 04:03:35 | INFO    | crawler.pipeline | Final stats: {'total': 35, 'per_site': {'hk_marine_dept': 10, 'manifold_times': 15, 'people_daily': 10}}
+2026-08-02 04:03:35 | INFO    | crawler.pipeline | Crawler stopped.
+2026-08-02 04:06:18 | INFO    | crawler.pipeline | [manifold_times] crawling 1 list page(s)
+2026-08-02 04:06:20 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-08-02 04:06:30 | INFO    | crawler.pipeline | [manifold_times] 57 candidates, 48 new to fetch
+2026-08-02 04:06:34 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Singapore: Liberia-flagged bulk carrier “Pantazis L” placed under Sher (cc8490e9b1edaffd.json)
+2026-08-02 04:07:26 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Singapore: Liberia-flagged bulk carrier “Pantazis L” placed under Sher (c0b40cc0a2aff548.json)
+2026-08-02 04:07:34 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Singapore: Cook Islands-flagged tanker “Arthgallo” placed under Sherif (9dfb2d34cd68779d.json)
+2026-08-02 04:07:44 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Singapore: Notice of intended dividend issued for Nan Ho Maritime, Nan (30429784d4cf77b0.json)
+2026-08-02 04:07:54 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Integr8 Fuels: Why bunker markets could be lower than we thought (59596f02d51d6b58.json)
+2026-08-02 04:07:57 | INFO    | crawler.pipeline | [manifold_times] single cycle done, 5 new article(s)
+2026-08-02 04:07:57 | INFO    | crawler.pipeline | Final stats: {'total': 40, 'per_site': {'hk_marine_dept': 10, 'manifold_times': 20, 'people_daily': 10}}
+2026-08-02 04:07:57 | INFO    | crawler.pipeline | Crawler stopped.
+2026-08-02 04:07:58 | INFO    | crawler.pipeline | [hk_marine_dept] crawling 1 list page(s)
+2026-08-02 04:08:00 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-08-02 04:08:09 | INFO    | crawler.pipeline | [hk_marine_dept] 187 candidates, 177 new to fetch
+2026-08-02 04:08:14 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Speech by CE at Opening Ceremony of Hong Kong Maritime Week 2025 cum W (09bd889b4f7048da.json)
+2026-08-02 04:08:25 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Speech by STL at Opening Ceremony of Hong Kong Maritime Week 2025 and  (e23bdf948c72b035.json)
+2026-08-02 04:08:32 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Hong Kong Maritime Week 2025 holds opening ceremony today to lead ship (dad2ec9b3c51d8bc.json)
+2026-08-02 04:08:41 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Hong Kong Maritime Week 2025 holds opening ceremony today to lead ship (79a726deca6fe912.json)
+2026-08-02 04:08:50 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Closing remarks by STL at Hong Kong Global Maritime Trade Summit (Engl (7b0f64e439a3cbc5.json)
+2026-08-02 04:08:54 | INFO    | crawler.pipeline | [hk_marine_dept] single cycle done, 5 new article(s)
+2026-08-02 04:08:54 | INFO    | crawler.pipeline | Final stats: {'total': 45, 'per_site': {'hk_marine_dept': 15, 'manifold_times': 20, 'people_daily': 10}}
+2026-08-02 04:08:54 | INFO    | crawler.pipeline | Crawler stopped.
+2026-08-02 04:08:55 | INFO    | crawler.pipeline | [people_daily] crawling 3 list page(s)
+2026-08-02 04:08:56 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-08-02 04:09:23 | INFO    | crawler.pipeline | [people_daily] 266 candidates, 266 new to fetch
+2026-08-02 04:09:26 | INFO    | crawler.pipeline | [people_daily] saved [OK] 谋幸福 --观点--人民网 (6f17027bfbbc4b10.json)
+2026-08-02 04:09:34 | INFO    | crawler.pipeline | [people_daily] saved [OK] 谋发展--观点--人民网 (664e0531168908f1.json)
+2026-08-02 04:09:43 | INFO    | crawler.pipeline | [people_daily] saved [OK] “始终同人民同呼吸、共命运、心连心”（总书记的人民情怀） --时政--人民网 (52d11bf4f9b7e382.json)
+2026-08-02 04:09:52 | INFO    | crawler.pipeline | [people_daily] saved [OK] 把为人民谋幸福作为根本使命--时政--人民网 (d2dd975cb38cbcb0.json)
+2026-08-02 04:10:01 | INFO    | crawler.pipeline | [people_daily] saved [OK] 深入学习贯彻习近平总书记在庆祝中国共产党成立105周年大会上重要讲话系列述评之七--时政--人民网 (d7a496eed4a8873a.json)
+2026-08-02 04:10:06 | INFO    | crawler.pipeline | [people_daily] single cycle done, 5 new article(s)
+2026-08-02 04:10:06 | INFO    | crawler.pipeline | Final stats: {'total': 50, 'per_site': {'hk_marine_dept': 15, 'manifold_times': 20, 'people_daily': 15}}
+2026-08-02 04:10:06 | INFO    | crawler.pipeline | Crawler stopped.
+2026-08-03 12:38:26 | INFO    | crawler.pipeline | [manifold_times] crawling 1 list page(s)
+2026-08-03 12:38:34 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-08-03 12:38:50 | INFO    | crawler.pipeline | [manifold_times] 56 candidates, 43 new to fetch
+2026-08-03 12:38:57 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Notice of dividend issued for defunct Singapore bunker supplier Inter- (4ff021673c0b01da.json)
+2026-08-03 12:39:08 | INFO    | crawler.pipeline | [manifold_times] saved [OK] Shanghai Port surpasses 2 million m³ LNG bunkering milestone with PIL  (8ffced734363c120.json)
+2026-08-03 12:39:20 | INFO    | crawler.pipeline | [manifold_times] saved [OK] China&#039;s first domestically developed Ultramax methanol dual-fuel  (894d8844be97de1c.json)
+2026-08-03 12:39:29 | INFO    | crawler.pipeline | [manifold_times] saved [OK] T&amp;E: EU risks losing green marine fuels race to China (220c09613018a746.json)
+2026-08-03 12:40:19 | INFO    | crawler.pipeline | [manifold_times] saved [OK] T&amp;E: EU risks losing green marine fuels race to China (f0d191191e20ee3a.json)
+2026-08-03 12:40:22 | INFO    | crawler.pipeline | [manifold_times] single cycle done, 5 new article(s)
+2026-08-03 12:40:22 | INFO    | crawler.pipeline | Final stats: {'total': 55, 'per_site': {'hk_marine_dept': 15, 'manifold_times': 25, 'people_daily': 15}}
+2026-08-03 12:40:22 | INFO    | crawler.pipeline | Crawler stopped.
+2026-08-03 12:40:23 | INFO    | crawler.pipeline | [hk_marine_dept] crawling 1 list page(s)
+2026-08-03 12:40:25 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-08-03 12:40:39 | INFO    | crawler.pipeline | [hk_marine_dept] 187 candidates, 172 new to fetch
+2026-08-03 12:40:44 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Hong Kong Maritime Week 2025 sets sail: Navigating to greener future a (9267a59263f9db49.json)
+2026-08-03 12:40:52 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Further appointments to committees under Hong Kong Maritime and Port D (3aa186b98a8e5b69.json)
+2026-08-03 12:40:59 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] HKETO Jakarta showcases Hong Kong's maritime strengths in Malaysia (wi (e8d26e67ed91c080.json)
+2026-08-03 12:41:08 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Government announces appointments to four committees under Hong Kong M (b56d9242b539858a.json)
+2026-08-03 12:41:14 | INFO    | crawler.pipeline | [hk_marine_dept] saved [OK] Government announces appointments to Hong Kong Maritime and Port Devel (5309893edbf71156.json)
+2026-08-03 12:41:18 | INFO    | crawler.pipeline | [hk_marine_dept] single cycle done, 5 new article(s)
+2026-08-03 12:41:18 | INFO    | crawler.pipeline | Final stats: {'total': 60, 'per_site': {'hk_marine_dept': 20, 'manifold_times': 25, 'people_daily': 15}}
+2026-08-03 12:41:19 | INFO    | crawler.pipeline | Crawler stopped.
+2026-08-03 12:41:19 | INFO    | crawler.pipeline | [people_daily] crawling 3 list page(s)
+2026-08-03 12:41:21 | INFO    | crawler.browser | Chrome driver started (undetected=False, headless=True)
+2026-08-03 12:41:46 | INFO    | crawler.pipeline | [people_daily] 286 candidates, 286 new to fetch
+2026-08-03 12:41:50 | INFO    | crawler.pipeline | [people_daily] saved [OK] 【思维导图】一图学习领会习近平党建思想--理论-中国共产党新闻网 (98f0891058af8ed5.json)
+2026-08-03 12:41:58 | INFO    | crawler.pipeline | [people_daily] saved [OK] 坚持以习近平党建思想为指引 奋力推进新时代党的建设新的伟大工程（深入学习贯彻习近平新时代中国特色社会主义思想） --理论-中国共产党新闻网 (b42e58775be18dbc.json)
+2026-08-03 12:42:07 | INFO    | crawler.pipeline | [people_daily] saved [OK] 习近平党建思想的重大时代价值（深入学习贯彻习近平新时代中国特色社会主义思想） --专题报道-中国共产党新闻网 (0592d49b6d23d348.json)
+2026-08-03 12:42:15 | INFO    | crawler.pipeline | [people_daily] saved [OK] 深刻认识习近平党建思想的特殊重要地位（深入学习贯彻习近平新时代中国特色社会主义思想） --党建-中国共产党新闻网 (a3693efb81280a27.json)
+2026-08-03 12:42:22 | INFO    | crawler.pipeline | [people_daily] saved [OK] 持续推动学习贯彻习近平党建思想走深走实（深入学习贯彻习近平新时代中国特色社会主义思想） --专题报道-中国共产党新闻网 (988153ca0966ab13.json)
+2026-08-03 12:42:27 | INFO    | crawler.pipeline | [people_daily] single cycle done, 5 new article(s)
+2026-08-03 12:42:27 | INFO    | crawler.pipeline | Final stats: {'total': 65, 'per_site': {'hk_marine_dept': 20, 'manifold_times': 25, 'people_daily': 20}}
+2026-08-03 12:42:27 | INFO    | crawler.pipeline | Crawler stopped.

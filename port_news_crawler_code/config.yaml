@@ -1,0 +1,195 @@
+# =====================================================================
+# Port News Crawler - configuration
+# ---------------------------------------------------------------------
+# Global settings + per-site definitions. The crawler runs forever,
+# polling each enabled site on its own interval, detecting newly
+# published articles and saving title / body / timestamp / url.
+# =====================================================================
+
+global:
+  # Where article JSON files and the dedup database are written.
+  data_dir: "data"
+  log_dir: "logs"
+
+  # Browser settings
+  headless: true              # run Chrome without a visible window
+  use_undetected: false        # use undetected-chromedriver (helps with Cloudflare/anti-bot)
+  page_load_timeout: 45       # seconds to wait for a page to load
+  challenge_wait: 30          # max extra seconds to let a Cloudflare JS challenge clear
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+
+  # Politeness / pacing
+  min_delay_between_pages: 2.5   # seconds, min pause between two article fetches
+  max_delay_between_pages: 6.0   # seconds, max pause (random jitter in between)
+
+  # How many NEW articles to fetch per site per cycle (avoids huge bursts).
+  # Keep low on small servers (1–2 GB RAM) to avoid Chrome OOM.
+  max_new_articles_per_cycle: 5
+
+  # Default poll interval (seconds) if a site does not specify its own.
+  default_poll_interval: 900     # 15 minutes
+
+  # Retry behaviour for a single page load.
+  max_retries: 3
+
+  # Shared LLM prefilter/impact scoring and MySQL news_text insertion.
+  scoring:
+    enabled: true
+    table: "news_text"
+    api_key_env: "DEEPSEEK_API_KEY"
+    base_url: "https://api.deepseek.com"
+    model: "deepseek-v4-flash"
+    content_chars: 900
+    batch_size: 20
+    context_tokens: 256000
+    call_tokens: 8000
+    token_buffer: 2000
+    temperature: 0.1
+    timeout: 180
+    retries: 3
+    retry_sleep: 5.0
+
+# ---------------------------------------------------------------------
+# Sites
+# ---------------------------------------------------------------------
+# Each site has:
+#   name            : unique id (used for folder + db)
+#   enabled         : true/false
+#   list_urls       : one or more index/search pages to discover article links
+#   article_url_patterns : regexes; a discovered link must match >=1 to be treated as an article
+#   exclude_patterns      : regexes; if a link matches any, it is skipped
+#   poll_interval   : seconds between crawls of this site (optional)
+#   wait_css        : optional CSS selector to wait for before reading list page
+#   render_wait     : extra seconds to wait for JS to render (optional)
+#   language        : informational
+# ---------------------------------------------------------------------
+sites:
+
+  # ------------------------- Hong Kong sources -------------------------
+  - name: hket
+    enabled: true
+    language: "zh-Hant"
+    list_urls:
+      - "https://www.hket.com/"
+      - "https://service.hket.com/search/result?dis=contenttagid&keyword=2467"
+    article_url_patterns:
+      - "hket\\.com/article/"
+      - "[a-z]+\\.hket\\.com/article/"
+    exclude_patterns:
+      - "/search/"
+      - "/topic/"
+    render_wait: 3
+    wait_css: ".article-list"  # 等待文章列表出现
+    poll_interval: 600
+
+  - name: manifold_times
+    enabled: true
+    language: "en"
+    list_urls:
+      - "https://www.manifoldtimes.com/"
+    # Manifold Times (WordPress) article URLs look like /news/<slug>/ or /opinion/<slug>/
+    article_url_patterns:
+      - "manifoldtimes\\.com/(news|opinion|features|interviews)/[^/]+/?$"
+    exclude_patterns:
+      - "/category/"
+      - "/tag/"
+      - "/author/"
+      - "/page/"
+    render_wait: 2
+    poll_interval: 1800
+
+  - name: hk_marine_dept
+    enabled: true
+    language: "en"
+    list_urls:
+      - "https://www.hkmpdb.gov.hk/en/news.html"
+    article_url_patterns:
+      - "hkmpdb\\.gov\\.hk/en/news/\\d{8}[a-z]?\\.html"
+    exclude_patterns: []
+    render_wait: 2
+    poll_interval: 21600   # 6h (low frequency source)
+
+  # ------------------------- International wires -----------------------
+  - name: scmp
+    enabled: true
+    language: "en"
+    list_urls:
+      - "https://www.scmp.com/topics/shipping"
+      - "https://www.scmp.com/business"
+    article_url_patterns:
+      - "scmp\\.com/.+/article/\\d+/"
+    exclude_patterns:
+      - "/topics/"
+      - "/author/"
+    render_wait: 4
+    poll_interval: 900
+
+  - name: cnn
+    enabled: true
+    language: "en"
+    list_urls:
+      - "https://www.cnn.com/business"
+      - "https://edition.cnn.com/business"
+    article_url_patterns:
+      - "cnn\\.com/\\d{4}/\\d{2}/\\d{2}/.+/index\\.html"
+    exclude_patterns:
+      - "/videos/"
+      - "/live-news/"
+    render_wait: 4
+    poll_interval: 900
+
+  - name: reuters
+    enabled: true
+    language: "en"
+    list_urls:
+      - "https://www.reuters.com/business/"
+      - "https://www.reuters.com/business/energy/"
+    article_url_patterns:
+      - "reuters\\.com/.+/[a-z0-9-]+-\\d{4}-\\d{2}-\\d{2}/?$"
+    exclude_patterns:
+      - "/tag/"
+      - "/authors/"
+    render_wait: 10
+    poll_interval: 900
+
+  - name: afp
+    enabled: true
+    language: "en"
+    list_urls:
+      - "https://www.afp.com/en/news-hub"
+    article_url_patterns:
+      - "afp\\.com/en/news/\\d+/"
+    exclude_patterns:
+      - "/news-hub"
+    render_wait: 3
+    poll_interval: 1800
+
+  # ------------------------- Mainland / HK newspapers ------------------
+  - name: people_daily
+    enabled: true
+    language: "zh-Hans"
+    list_urls:
+      - "http://www.people.com.cn/"
+      - "http://world.people.com.cn/"
+      - "http://finance.people.com.cn/"
+    article_url_patterns:
+      - "people\\.com\\.cn/n\\d+/\\d{4}/\\d{4}/c\\d+-\\d+\\.html"
+    exclude_patterns:
+      - "/GB/"
+      - "/video/"
+      - "/pic/"
+    render_wait: 3
+    poll_interval: 1800
+
+  - name: takungpao
+    enabled: true
+    language: "zh-Hant"
+    list_urls:
+      - "http://www.takungpao.com/"
+      - "https://www.takungpao.com/news/index.html"
+    article_url_patterns:
+      - "takungpao\\.com/(news|finance|consume)/\\d+/\\d{4}/\\d{4}/\\d+\\.html"
+    exclude_patterns:
+      - "/index\\.html"
+    render_wait: 3
+    poll_interval: 1800
