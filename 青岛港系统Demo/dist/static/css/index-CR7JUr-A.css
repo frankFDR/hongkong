@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+:root{--el-fixed-width: 1200px;--el-fixed-width-margin: auto}.fixed-width-container+.vab-footer{width:var(--el-fixed-width);margin:var(--el-fixed-width-margin)}.fixed-width-container .fixed-width-box[data-v-8edb1812]{width:var(--el-fixed-width);min-height:var(--el-container-height);padding:var(--el-padding);margin:var(--el-fixed-width-margin);margin-bottom:var(--el-margin);background-color:var(--el-color-white);border:1px solid var(--el-border-color);border-radius:var(--el-border-radius-base)}

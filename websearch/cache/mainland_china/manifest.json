@@ -3703,11 +3703,58 @@
     {
       "year": 2026,
       "month": 6,
+      "year_url": null,
       "detail_url": "http://english.customs.gov.cn/Statics/dd62ef25-db42-4e74-b7d1-79aa5dea406b.html",
-      "online_status": "failed",
-      "verified": false,
-      "failure_type": "ImportError",
-      "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+      "usd_page_url": "http://english.customs.gov.cn/Statics/dd62ef25-db42-4e74-b7d1-79aa5dea406b.html",
+      "download_url": null,
+      "path": "cache/mainland_china_english/2026-06.html",
+      "sha256": "16f8f6e4aba3496417999e3a9f04e664e3fcee42d0bf81ae3307114a16b1a4ac",
+      "fetched_at": "2026-08-03T13:49:52.114016+00:00",
+      "source_type": "english_bulletin",
+      "unit": "USD",
+      "multiplier": 1,
+      "online_status": "fresh",
+      "verified": true,
+      "failure_type": null,
+      "error": null,
+      "cross_check": {
+        "status": "english_html_only",
+        "differences": []
+      },
+      "values": {
+        "export": {
+          "50": 70066000,
+          "51": 187535000,
+          "52": 958200000,
+          "53": 77467000,
+          "54": 2689132000,
+          "55": 1352086000,
+          "56": 869507000,
+          "57": 406423000,
+          "58": 637015000,
+          "59": 993858000,
+          "60": 2499122000,
+          "61": 8502470000,
+          "62": 6540377000,
+          "63": 3172646000
+        },
+        "import": {
+          "50": 7352000,
+          "51": 384784000,
+          "52": 634527000,
+          "53": 175687000,
+          "54": 146934000,
+          "55": 119142000,
+          "56": 112476000,
+          "57": 9213000,
+          "58": 22718000,
+          "59": 117712000,
+          "60": 47511000,
+          "61": 327337000,
+          "62": 476838000,
+          "63": 32248000
+        }
+      }
     }
   ]
 }

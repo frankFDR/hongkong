@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+System.register(["./index.vue_vue_type_script_setup_true_lang-legacy-y3SBTWM0.js","./vue-json-viewer-legacy-C5vn8mrC.js","./index-legacy-ZsikhjLK.js","./index-legacy-Bg-VVS7c.js","./index-legacy-B9r_RGDL.js"],(function(e,t){"use strict";var u,n,a,r,i,l,s,y,c,d,p,m;return{setters:[e=>{u=e._},e=>{n=e.V},e=>{a=e.d,r=e.i,i=e.ei,l=e.U,s=e.j,y=e.z,c=e.c,d=e.f,p=e.b,m=e.u},null,null],execute:function(){const t={class:"test2-container"};e("default",a({name:"Query",__name:"query",setup(e){const a=r(),_=i(),{changeTabsMeta:g}=_,o=l({name:"",path:"",query:{}}),v=()=>{o.name=a.name,o.path=a.path,o.query=a.query,g({title:"Query",meta:{title:`Query id=${a.query.id} `}})};return s(o,(()=>{v()}),{immediate:!0}),y((()=>{v()})),(e,r)=>{const i=u;return d(),c("div",t,[p(i,{title:"Query id="+m(a).query.id},null,8,["title"]),p(m(n),{copyable:"","expand-depth":5,value:m(o)},null,8,["value"])])}}}))}}}));

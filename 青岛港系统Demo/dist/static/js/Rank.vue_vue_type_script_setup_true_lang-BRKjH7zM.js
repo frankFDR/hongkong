@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+import{_ as l}from"./index-kQqDwBEu.js";import{_}from"./index-TT6O8i_P.js";import{d as m,h as u,s as d,U as f,j as h,V as x,g as b,f as g,w as a,b as n,u as v,K as w}from"./index-BejtHq3K.js";const L=m({__name:"Rank",setup(y){const i=u(),{theme:e}=d(i),t=f({tooltip:{trigger:"axis",extraCssText:"z-index:1"},grid:{top:"0%",left:"2%",right:"20%",bottom:"0%",containLabel:!0},xAxis:[{splitLine:{show:!1},type:"value",show:!1}],yAxis:[{splitLine:{show:!1},axisLine:{show:!1},type:"category",axisTick:{show:!1},data:["曲丽丽","付小小","林东东","周星星","朱偏右"]}],series:[{name:"累计消费",type:"bar",barWidth:15,label:{show:!0,position:"right",fontSize:12,formatter:({data:o})=>"".concat(o,"万元")},itemStyle:{borderRadius:10,borderWidth:2},data:[23,54,68,76,87]}]});return h(e.value,()=>{t.color=[e.value.color]},{immediate:!0}),(o,s)=>{const r=x("vab-icon"),p=_,c=l;return g(),b(c,{"body-style":{height:"210px"},skeleton:""},{header:a(()=>[n(r,{icon:"align-top"}),s[0]||(s[0]=w(" 消費排行 "))]),default:a(()=>[n(p,{option:v(t)},null,8,["option"])]),_:1})}}});export{L as _};

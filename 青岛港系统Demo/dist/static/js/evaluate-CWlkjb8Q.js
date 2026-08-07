@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+import{_ as s}from"./index-kQqDwBEu.js";import{d as r,r as l,o as c,R as _,g as d,f as i,w as e,b as p,a as f,u as m,e as u,_ as b}from"./index-BejtHq3K.js";import"./index-ngJ0ZP3x.js";const h=["innerHTML"],v=r({name:"Score",__name:"evaluate",props:{title:{type:String,default:""},isShow:{type:Boolean,default:!1}},setup(t){const o=l('\n<div  style="font-size: 18px; line-height: 2.5rem;">2025年，青岛港在“十大伙伴行动”框架下，再度新增三条直达非洲航线，重点覆盖东非和西非的主要港口，同时探索与非洲自贸区港口的数字化对接。该举措旨在打造中非经贸合作的“海上高速路”，通过“云港通”智慧平台和区块链技术，将中非物流综合成本再降低20%，并大幅压缩港口作业时效。<br>\n1. 货物吞吐量：预计非洲航线货量占比将显著提升，带动整体吞吐量增长。<br>\n2. 物流综合成本：数字化对接和区块链应用有望使中非物流成本平均下降20%。<br>\n3. 通关时效：进口提单业务从平均4小时缩至20分钟，船边直提平均压缩3–7小时。<br>\n4. 供应链弹性与稳定性：多条直达航线分散风险，增强“一带一路”供应链对外贸波动的抵御能力。</div>');return c(()=>{}),_(()=>{}),(x,g)=>{const a=s,n=u;return i(),d(n,{lg:16,md:12,sm:24,xl:16,xs:24},{default:e(()=>[p(a,{"body-style":{height:"340px"},class:"my-vab-card",skeleton:"",title:t.title},{default:e(()=>[f("div",{innerHTML:m(o)},null,8,h)]),_:1},8,["title"])]),_:1})}}}),w=b(v,[["__scopeId","data-v-dfa2d3bd"]]);export{w as default};

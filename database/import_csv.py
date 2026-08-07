@@ -22,7 +22,7 @@ def _resolve_translate_mode(
 
 
 def _import_csv_to_db(*args, **kwargs):
-    from database_utils_v4 import engine, import_csv_to_db
+    from database_utils import engine, import_csv_to_db
     from sqlalchemy import inspect, text
 
     success = import_csv_to_db(*args, **kwargs)
@@ -151,7 +151,7 @@ def batch_import_csv_from_folder(
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Import CSV file(s) into MySQL port database using database_utils_v4."
+        description="Import CSV file(s) into MySQL port database using database_utils."
     )
     parser.add_argument(
         "path",
@@ -230,4 +230,7 @@ if __name__ == "__main__":
     # csv_folder_path = '/data5/zhimo/port/纺织物_0628'
     # csv_folder_path = '/data5/zhimo/port/0331/对外贸易_商品贸易'
     csv_folder_path = '/data5/zhimo/port/纺织物_0710/data_for_mysql'
-    batch_import_csv_from_folder(csv_folder_path, limit=100)
+    csv_folder_path = '/data5/zhimo/port/database/sea_river_import_export_throughput.csv'
+    # batch_import_csv_from_folder(csv_folder_path, limit=100)
+    
+    import_single_csv(csv_folder_path, 'sea_river_import_export_throughput')

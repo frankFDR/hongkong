@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+.custom-tree-node{display:flex;flex:1;align-items:center;justify-content:space-between;padding-right:8px;font-size:var(--el-font-size-base)}

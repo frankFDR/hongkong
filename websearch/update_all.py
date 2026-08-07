@@ -8,6 +8,7 @@ import shutil
 import sys
 import time
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from pathlib import Path
 from typing import Callable, NamedTuple
@@ -21,6 +22,7 @@ import fetch_mainland_china
 import fetch_mainland_china_english
 import fetch_usa
 import fetch_vietnam
+from import_to_db import import_published_data
 import regional_proxy
 
 HERE = Path(__file__).resolve().parent
@@ -118,31 +120,34 @@ def _vietnam_preflight() -> PreflightResult:
             relay.stop()
 
 
-def run_network_preflight() -> list[PreflightResult]:
-    print("== Network preflight (4 groups) ==")
-    checks = (
-        _mainland_china_preflight,
-        lambda: _http_preflight("USA", tuple(fetch_usa.BASE_URLS.values())),
-        lambda: _http_preflight(
+def run_network_preflight(only: str | None = None) -> list[PreflightResult]:
+    checks = {
+        "mainland": _mainland_china_preflight,
+        "usa": lambda: _http_preflight("USA", tuple(fetch_usa.BASE_URLS.values())),
+        "hongkong": lambda: _http_preflight(
             "Hong Kong",
-            (fetch_hongkong.HOME_URL, fetch_hongkong_port.HOME_URL),
+            (fetch_hongkong.HOME_URL,),
         ),
-        _vietnam_preflight,
-    )
+        "port": lambda: _http_preflight("Hong Kong port", (fetch_hongkong_port.HOME_URL,)),
+        "vietnam": _vietnam_preflight,
+    }
+    selected = {only: checks[only]} if only else checks
+    print(f"== Network preflight ({len(selected)} groups) ==")
     results = []
-    for check in checks:
-        result = check()
-        results.append(result)
-        marker = "OK" if result.ok else "FAILED"
-        print(f"  [{marker}] {result.label}: {result.detail}")
+    with ThreadPoolExecutor(max_workers=len(selected), thread_name_prefix="preflight") as pool:
+        futures = [pool.submit(check) for check in selected.values()]
+        for future in as_completed(futures):
+            result = future.result()
+            results.append(result)
+            marker = "OK" if result.ok else "FAILED"
+            print(f"  [{marker}] {result.label}: {result.detail}")
 
     failed = [result.label for result in results if not result.ok]
     if failed:
-        print(f"\nNetwork preflight failed: {', '.join(failed)}")
-        try:
-            input("Fix or confirm the network settings, then press Enter to continue anyway...")
-        except EOFError:
-            print("(no interactive stdin; continuing anyway)")
+        print(
+            f"\nWARNING: Network preflight failed: {', '.join(failed)}; "
+            "continuing with the remaining sources."
+        )
     else:
         print("  All network groups are reachable.")
     return results
@@ -218,9 +223,13 @@ def main(argv: list[str] | None = None) -> int:
                              "data=以 data/ 现有 CSV 为缓存,已有月份一律不抓,只补缺月")
     parser.add_argument("--china-import-source", type=Path, action="append")
     parser.add_argument("--china-export-source", type=Path, action="append")
+    parser.add_argument("--skip-db", action="store_true",
+                        help="publish CSV files without loading successful outputs into MySQL")
+    parser.add_argument("--only", choices=("mainland", "usa", "hongkong", "port", "vietnam"),
+                        help="只更新并入库一个来源；默认更新全部来源")
     args = parser.parse_args(argv)
 
-    run_network_preflight()
+    run_network_preflight(args.only)
     if not args.dry_run:
         _backup()
     STAGE_DIR.mkdir(exist_ok=True)
@@ -228,36 +237,61 @@ def main(argv: list[str] | None = None) -> int:
     failures: dict[str, str] = {}
 
     refresh = args.refresh
-    _run_source(
-        "Mainland China (Customs HS 50-63)",
-        ("mainlandChina.csv",),
-        lambda: fetch_mainland_china.main(
-            STAGE_DIR / "mainlandChina.csv",
-            offline=args.dry_run,
-            import_sources=args.china_import_source,
-            export_sources=args.china_export_source,
-            refresh_all=refresh == "all",
-            existing_path=DATA_DIR / "mainlandChina.csv" if refresh == "data" else None,
-        ),
-        succeeded, failures,
-    )
-    _run_source("USA (Census HS 50-63)", ("USA_Total.csv",),
-                lambda: fetch_usa.main(STAGE_DIR / "USA_Total.csv", refresh=refresh,
-                                       existing_path=DATA_DIR / "USA_Total.csv"),
-                succeeded, failures)
-    _run_source("Hongkong (IDDS SITC 65)", ("Honkong.csv",),
-                lambda: fetch_hongkong.main(STAGE_DIR / "Honkong.csv", refresh=refresh,
-                                            existing_path=DATA_DIR / "Honkong.csv"),
-                succeeded, failures)
-    _run_source("Hong Kong port throughput", ("HongKong_Port_Throughput.csv",),
-                lambda: fetch_hongkong_port.main(
-                    STAGE_DIR / "HongKong_Port_Throughput.csv"),
-                succeeded, failures)
-    _run_source("Vietnam (NSO/GSO textile groups)", ("Vietnam.csv",),
-                lambda: fetch_vietnam.main(STAGE_DIR / "Vietnam.csv", preflight=False,
-                                           refresh=refresh,
-                                           existing_path=DATA_DIR / "Vietnam.csv"),
-                succeeded, failures)
+    source_jobs: list[tuple[str, tuple[str, ...], Callable[[], object]]] = []
+    if args.only in (None, "mainland"):
+        source_jobs.append((
+            "Mainland China (Customs HS 50-63)", ("mainlandChina.csv",),
+            lambda: fetch_mainland_china.main(
+                STAGE_DIR / "mainlandChina.csv", offline=args.dry_run,
+                import_sources=args.china_import_source, export_sources=args.china_export_source,
+                refresh_all=refresh == "all",
+                existing_path=DATA_DIR / "mainlandChina.csv" if refresh == "data" else None,
+            ),
+        ))
+    if args.only in (None, "usa"):
+        source_jobs.append((
+            "USA (Census HS 50-63)", ("USA_Total.csv",),
+            lambda: fetch_usa.main(STAGE_DIR / "USA_Total.csv", refresh=refresh,
+                                   existing_path=DATA_DIR / "USA_Total.csv"),
+        ))
+    if args.only in (None, "hongkong"):
+        source_jobs.append((
+            "Hongkong (IDDS SITC 65)", ("Honkong.csv",),
+            lambda: fetch_hongkong.main(STAGE_DIR / "Honkong.csv", refresh=refresh,
+                                        existing_path=DATA_DIR / "Honkong.csv"),
+        ))
+    if args.only in (None, "port"):
+        source_jobs.append((
+            "Hong Kong port throughput", ("HongKong_Port_Throughput.csv",),
+            lambda: fetch_hongkong_port.main(STAGE_DIR / "HongKong_Port_Throughput.csv"),
+        ))
+    if args.only in (None, "vietnam"):
+        source_jobs.append((
+            "Vietnam (NSO/GSO textile groups)", ("Vietnam.csv",),
+            lambda: fetch_vietnam.main(STAGE_DIR / "Vietnam.csv", preflight=False,
+                                       refresh=refresh,
+                                       existing_path=DATA_DIR / "Vietnam.csv"),
+        ))
+
+    if len(source_jobs) == 1:
+        label, outputs, operation = source_jobs[0]
+        _run_source(label, outputs, operation, succeeded, failures)
+    else:
+        print(f"== Parallel update ({len(source_jobs)} sources) ==")
+        with ThreadPoolExecutor(max_workers=len(source_jobs), thread_name_prefix="source") as pool:
+            futures = {
+                pool.submit(_run_source, label, outputs, operation, succeeded, failures): label
+                for label, outputs, operation in source_jobs
+            }
+            for future in as_completed(futures):
+                # _run_source isolates expected source errors; this still surfaces an
+                # unexpected executor/programming failure without cancelling siblings.
+                try:
+                    future.result()
+                except Exception as exc:
+                    label = futures[future]
+                    failures[label] = f"{type(exc).__name__}: {exc}"
+                    print(f"  FAILED: {label}: {failures[label]}")
 
     key_columns = {
         "USA_Total.csv": ["年月", "年", "月"],
@@ -277,6 +311,14 @@ def main(argv: list[str] | None = None) -> int:
         for name in sorted(succeeded):
             shutil.copy2(STAGE_DIR / name, DATA_DIR / name)
         print(f"Published {len(succeeded)} successful files to {DATA_DIR}")
+        if not args.skip_db and succeeded:
+            print("== Import published data to MySQL ==")
+            try:
+                imported = import_published_data(DATA_DIR, succeeded)
+                print(f"Imported {len(imported)} tables: {', '.join(imported)}")
+            except Exception as exc:
+                failures["MySQL import"] = f"{type(exc).__name__}: {exc}"
+                print(f"  FAILED: {failures['MySQL import']}")
     else:
         print(f"dry-run: staged successful files in {STAGE_DIR}")
 

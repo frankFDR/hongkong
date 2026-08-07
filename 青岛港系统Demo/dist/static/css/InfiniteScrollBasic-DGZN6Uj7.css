@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+.infinite-list{height:245px;padding:0;margin:0;list-style:none}.infinite-list .infinite-list-item{display:flex;align-items:center;justify-content:center;height:50px;margin:10px;color:var(--el-color-primary);background:var(--el-color-primary-light-9)}.infinite-list .infinite-list-item+.list-item{margin-top:10px}

@@ -1,0 +1,84 @@
+{
+  "suite": "realtext3_conf08_s0_23_det",
+  "description": "Standalone ternary perfect-text and certainty-weighted real-text GRU reproduction",
+  "features": [
+    {"key": "hongkong_export", "news_target": "香港_出口"},
+    {"key": "hongkong_import", "news_target": "香港_进口"},
+    {"key": "mainland_export", "news_target": "中国大陆_出口"},
+    {"key": "mainland_import", "news_target": "中国大陆_进口"},
+    {"key": "usa_export", "news_target": "美国_出口"},
+    {"key": "usa_import", "news_target": "美国_进口"},
+    {"key": "vietnam_export", "news_target": "越南_出口"},
+    {"key": "vietnam_import", "news_target": "越南_进口"}
+  ],
+  "variants": {
+    "no_text": {
+      "channels": ["transformed_value"],
+      "forward_features": [0]
+    },
+    "ternary_perfect": {
+      "channels": [
+        "transformed_value",
+        "perfect_text_adi_transition_ternary",
+        "transition_mean_logdiff"
+      ],
+      "forward_features": [0, 1],
+      "use_adi": true
+    }
+  },
+  "data": {
+    "raw_csv": "data/raw/textile_common_monthly.csv",
+    "dataset_dir": "data/datasets",
+    "raw_start_date": "2015-01",
+    "start_date": "2015-02",
+    "end_date": "2025-12",
+    "train_end_date": "2022-12",
+    "test_start_date": "2023-01",
+    "test_end_date": "2025-12",
+    "input_len": 12,
+    "output_len": 1,
+    "dataset_len": 131,
+    "train_rows": 95,
+    "train_windows": 83,
+    "test_samples": 36,
+    "scaler_train_points": 95
+  },
+  "text_index": {
+    "news_json": "data/raw/news_impacts.json",
+    "prefilter_dir": "data/raw/prefilter_results_monthly",
+    "precomputed_dir": "data/text_index/precomputed",
+    "confidence_operator": "gt",
+    "confidence_threshold": 0.8,
+    "score_start": 0,
+    "score_end": 23,
+    "denominator": "aligned_nonzero_count",
+    "index_variant": "certainty-weighted"
+  },
+  "model": {
+    "hidden_dim": 64,
+    "num_encoder_layers": 2,
+    "num_decoder_layers": 1,
+    "dropout": 0.1
+  },
+  "training": {
+    "seed": 20260713,
+    "epochs": 150,
+    "batch_size": 8,
+    "optimizer": "Adam",
+    "learning_rate": 0.0005,
+    "weight_decay": 0.001,
+    "scheduler": "CosineAnnealingLR",
+    "eta_min": 0.00001,
+    "clip_grad_max_norm": 5.0,
+    "early_stopping_patience": 20,
+    "early_stopping_min_delta": 0.005
+  },
+  "evaluation": {
+    "specs": [
+      {"steps": 1, "rolling_windows": 36, "kept_windows": 34},
+      {"steps": 3, "rolling_windows": 34, "kept_windows": 34},
+      {"steps": 12, "rolling_windows": 25, "kept_windows": 25}
+    ],
+    "transition_origin_alignment": "target month t uses dataset row t-1"
+  }
+}

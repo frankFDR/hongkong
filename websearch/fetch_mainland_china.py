@@ -1849,7 +1849,12 @@ def main(output_path: Path = DEFAULT_OUTPUT, *,
             "incomplete",
             f"中国海关月份不完整{example}，未覆盖正式 CSV；部分结果见 {partial_path}",
         )
-    if top_error or chinese_error or (not offline and current_failures):
+    # A Chinese-site failure is not a run failure when the official English bulletin
+    # successfully fills every month; that is the documented fallback path. Keep the
+    # degraded source recorded in the report, but let the orchestrator publish it.
+    if chinese_error is not None and not top_error and not current_failures:
+        print("Mainland China: 中文主站不可用，完整结果来自英文官方兜底", flush=True)
+    if top_error or (not offline and current_failures):
         raise FetchError("partial_failure", "中国海关已用缓存/兜底来源发布，但本次在线采集存在失败")
     return records
 

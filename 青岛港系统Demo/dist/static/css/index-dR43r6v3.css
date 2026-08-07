@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+.card-drag-container .icon-panel[data-v-5708dfd0]{height:120px;text-align:center;cursor:move;-webkit-user-select:none;-moz-user-select:none;user-select:none}.card-drag-container .icon-panel:hover i[data-v-5708dfd0]{transform:scale(1.15)}.card-drag-container .icon-panel i[data-v-5708dfd0]{display:block;width:50px;height:50px;margin:auto;font-size:40px;transition:all ease-in-out .3s}.card-drag-container .icon-panel p[data-v-5708dfd0]{margin-top:10px}.fade-move,.fade-enter-active,.fade-leave-active{transition:all .5s cubic-bezier(.55,0,.1,1)}.fade-enter-from,.fade-leave-to{opacity:0;transform:scaleY(.01) translate(30px)}.fade-leave-active{position:absolute}

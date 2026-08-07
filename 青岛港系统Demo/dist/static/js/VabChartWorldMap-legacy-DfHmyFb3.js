@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+System.register(["./index-legacy-BVcx3Er1.js","./index-legacy-BGldioFj.js","./index-legacy-ZsikhjLK.js","./index-legacy-CMXgnq6n.js"],(function(t,e){"use strict";var o,a,l,n,r,s,i,d,u,p,c,g,m;return{setters:[t=>{o=t._},t=>{a=t._,l=t.cC},t=>{n=t.d,r=t.U,s=t.bi,i=t.g,d=t.f,u=t.w,p=t.b,c=t.u,g=t.e,m=t.P},null],execute:function(){t("default",n({name:"VabChartWorldMap",__name:"VabChartWorldMap",props:{title:{type:String,default:""}},setup(t){const e=r({grid:{top:20,right:20,bottom:40,left:40}});return s((()=>{(async()=>{const{data:t}=await m({url:"https://unpkg.com/echarts@4.9.0/map/json/world.json",method:"get"});setTimeout((()=>{l("world",t),e.geo={map:"world",type:"map",zoom:1.2,roam:!0}}),500)})()})),(l,n)=>{const r=a,s=o,m=g;return d(),i(m,{lg:8,md:12,sm:24,xl:6,xs:24},{default:u((()=>[p(s,{"body-style":{height:"240px"},skeleton:"",title:t.title},{default:u((()=>[p(r,{option:c(e)},null,8,["option"])])),_:1},8,["title"])])),_:1})}}}))}}}));

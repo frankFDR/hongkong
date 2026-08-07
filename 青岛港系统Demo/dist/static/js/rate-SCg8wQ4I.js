@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+import{_ as f}from"./index-kQqDwBEu.js";import{E as _}from"./index-CCVp4ril.js";import{d as V,r as d,c as v,f as x,b as l,w as o,H as m,u as p,K as i}from"./index-BejtHq3K.js";import"./index-ngJ0ZP3x.js";const c={class:"rate-container no-background-container"},U=V({name:"Rate",__name:"rate",setup(w){const n=d(null),t=d(null),u=d(3.7);return(b,e)=>{const r=_,s=f;return x(),v("div",c,[l(s,null,{header:o(()=>e[3]||(e[3]=[i("基础用法")])),default:o(()=>[l(r,{modelValue:p(n),"onUpdate:modelValue":e[0]||(e[0]=a=>m(n)?n.value=a:null)},null,8,["modelValue"])]),_:1}),l(s,null,{header:o(()=>e[4]||(e[4]=[i("辅助文字")])),default:o(()=>[l(r,{modelValue:p(t),"onUpdate:modelValue":e[1]||(e[1]=a=>m(t)?t.value=a:null),"show-text":""},null,8,["modelValue"])]),_:1}),l(s,null,{header:o(()=>e[5]||(e[5]=[i("只读")])),default:o(()=>[l(r,{modelValue:p(u),"onUpdate:modelValue":e[2]||(e[2]=a=>m(u)?u.value=a:null),disabled:"","score-template":"{value}","show-score":"","text-color":"var(--el-color-warning)"},null,8,["modelValue"])]),_:1})])}}});export{U as default};

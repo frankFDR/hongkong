@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+System.register(["./index-legacy-BVcx3Er1.js","./index-legacy-BGldioFj.js","./index-legacy-ZsikhjLK.js"],(function(e,t){"use strict";var a,n,r,i,o,l,u,s,d,c,m,v,f,g;return{setters:[e=>{a=e._},e=>{n=e._},e=>{r=e.d,i=e.h,o=e.s,l=e.U,u=e.j,s=e.V,d=e.g,c=e.f,m=e.w,v=e.b,f=e.u,g=e.K}],execute:function(){e("_",r({__name:"Branch",setup(e){const t=i(),{theme:r}=o(t),h=l({tooltip:{trigger:"item"},series:[{name:"访问来源",type:"pie",radius:["40%","80%"],itemStyle:{borderRadius:10,borderColor:"#fff",borderWidth:2},data:[{value:1048,name:"搜索引擎"},{value:735,name:"直接访问"},{value:580,name:"邮件营销"},{value:484,name:"联盟广告"},{value:300,name:"视频广告"}]}]});return u(r.value,(()=>{h.color=[r.value.color]}),{immediate:!0}),(e,t)=>{const r=s("vab-icon"),i=n,o=a;return c(),d(o,{"body-style":{height:"210px"},skeleton:""},{header:m((()=>[v(r,{icon:"donut-chart-fill"}),t[0]||(t[0]=g(" 分布 "))])),default:m((()=>[v(i,{option:f(h)},null,8,["option"])])),_:1})}}}))}}}));

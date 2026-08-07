@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+System.register(["./index-legacy-ZsikhjLK.js","./index-legacy-C4uLeUVk.js"],(function(e,l){"use strict";var t,a,u,n,d,o,r,c,i,s,p,m,_,f;return{setters:[e=>{t=e.d,a=e.r,u=e.c,n=e.f,d=e.b,o=e.w,r=e.K,c=e.O,i=e.a,s=e.H,p=e.u,m=e.F,_=e.fb},e=>{f=e.E}],execute:function(){e("_",t({__name:"DrawerNestedDrawer",setup(e){const l=a(!1),t=a(!1),y=e=>{_.confirm("您还有未保存的数据，确定要继续吗？",{draggable:!0}).then((()=>{e()})).catch((()=>{}))};return(e,a)=>{const _=c,b=f;return n(),u(m,null,[d(_,{type:"primary",onClick:a[0]||(a[0]=e=>l.value=!0)},{default:o((()=>a[4]||(a[4]=[r("打开")]))),_:1,__:[4]}),d(b,{modelValue:p(l),"onUpdate:modelValue":a[3]||(a[3]=e=>s(l)?l.value=e:null),"append-to-body":"",size:"288px",title:"我是外抽屉"},{default:o((()=>[i("div",null,[d(_,{onClick:a[1]||(a[1]=e=>t.value=!0)},{default:o((()=>a[5]||(a[5]=[r("点我")]))),_:1,__:[5]}),d(b,{modelValue:p(t),"onUpdate:modelValue":a[2]||(a[2]=e=>s(t)?t.value=e:null),"append-to-body":"","before-close":y,size:"188px",title:"我是内抽屉"},null,8,["modelValue"])])])),_:1},8,["modelValue"])],64)}}}))}}}));

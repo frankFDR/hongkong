@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+import{d,r as l,bi as i,R as f,c as g,f as m,b as o,a as v,u as a,w as b,O as B,eg as h,d6 as E,fZ as k,_ as x}from"./index-BejtHq3K.js";import{E as C}from"./index-ChNKt1mR.js";const I={class:"demo-progress"},P=d({__name:"ProgressDashboardProgressBar",setup(w){const e=l(10),n=l(0),t=[{color:"#f56c6c",percentage:20},{color:"#e6a23c",percentage:40},{color:"#5cb87a",percentage:60},{color:"#1989fa",percentage:80},{color:"#6f7ad3",percentage:100}],u=()=>{e.value+=10,e.value>100&&(e.value=100)},p=()=>{e.value-=10,e.value<0&&(e.value=0)};let c;return i(()=>{c=setInterval(()=>{n.value=n.value%100+10},500)}),f(()=>{clearInterval(c)}),(y,N)=>{const r=C,s=B,_=k;return m(),g("div",I,[o(r,{color:t,percentage:a(e),type:"dashboard"},null,8,["percentage"]),o(r,{color:t,percentage:a(n),type:"dashboard"},null,8,["percentage"]),v("div",null,[o(_,null,{default:b(()=>[o(s,{icon:a(h),onClick:p},null,8,["icon"]),o(s,{icon:a(E),onClick:u},null,8,["icon"])]),_:1})])])}}}),G=x(P,[["__scopeId","data-v-ad886539"]]);export{G as default};

@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+System.register(["./index-legacy-ZsikhjLK.js","./index-legacy-Cf2LN7en.js"],(function(e,l){"use strict";var t,a,n,o,u,c,i,r,s,d,p,g,b,v,m,y,f,_,j,C;return{setters:[e=>{t=e.d,a=e.r,n=e.gz,o=e.gA,u=e.gB,c=e.gC,i=e.gD,r=e.g,s=e.f,d=e.w,p=e.a,g=e.b,b=e.c,v=e.p,m=e.at,y=e.Z,f=e.t,_=e.u,j=e.H},e=>{C=e.E}],execute:function(){const l={style:{padding:"calc(var(--el-padding) / 3)"}},x={key:0};e("_",t({__name:"SegmentedCustomContent",setup(e){const t=a("Apple"),A=a([{label:"苹果",value:"Apple",icon:n},{label:"樱桃",value:"Cherry",icon:o},{label:"葡萄",value:"Grape",icon:u},{label:"橘子",value:"Orange",icon:c},{label:"梨",value:"Pear",icon:i}]);return(e,a)=>{const n=m,o=C;return s(),r(o,{modelValue:_(t),"onUpdate:modelValue":a[0]||(a[0]=e=>j(t)?t.value=e:null),options:_(A)},{default:d((({item:e})=>[p("div",l,[g(n,{size:"20"},{default:d((()=>[e&&"object"==typeof e&&e.icon?(s(),r(y(e.icon),{key:0})):v("",!0)])),_:2},1024),e&&"object"==typeof e&&e.label?(s(),b("div",x,f(e&&e.label),1)):v("",!0)])])),_:1},8,["modelValue","options"])}}}))}}}));

@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+import{L as t,_ as s}from"./index-TT6O8i_P.js";import{r as e}from"./random-BM4xdJSL.js";import{d as r,U as i,g as n,f as l,u as c}from"./index-BejtHq3K.js";const b=r({name:"DataScreenLeft1",__name:"DataScreenLeft1",setup(p){const o=i({grid:{left:"0",right:"0",bottom:"0",top:"10px",containLabel:!0},tooltip:{trigger:"axis"},xAxis:{show:!1,type:"value",axisLabel:{color:"#eee"},boundaryGap:!1,splitLine:{show:!1}},yAxis:[{type:"category",inverse:!0,data:["访客数量","订单数量","GPT模型数量","Claude模型数"],axisLine:{show:!1},axisTick:{show:!1},splitLine:{show:!1},axisLabel:{color:"#eee"}}],series:{name:"",type:"bar",zlevel:1,itemStyle:{borderRadius:10,color:new t(0,0,1,0,[{offset:0,color:"rgb(57,89,255,1)"},{offset:1,color:"rgb(46,200,207,1)"}])},barWidth:15,data:[e(100,2e3),e(100,2e3),e(100,2e3),e(100,2e3)],label:{show:!0,position:"inside",color:"#fff"}}});return setInterval(()=>{o.series.data=[e(100,2e3),e(100,2e3),e(100,2e3),e(100,2e3)]},1e3*5),(f,_)=>{const a=s;return l(),n(a,{option:c(o)},null,8,["option"])}}});export{b as _};

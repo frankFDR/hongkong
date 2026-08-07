@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+System.register(["./index.vue_vue_type_script_setup_true_lang-legacy-y3SBTWM0.js","./vue-json-viewer-legacy-C5vn8mrC.js","./index-legacy-ZsikhjLK.js","./index-legacy-Bg-VVS7c.js","./index-legacy-B9r_RGDL.js"],(function(e,a){"use strict";var t,n,s,l,i,r,u,c,m,d,p,h;return{setters:[e=>{t=e._},e=>{n=e.V},e=>{s=e.d,l=e.i,i=e.ei,r=e.r,u=e.U,c=e.j,m=e.c,d=e.f,p=e.b,h=e.u},null,null],execute:function(){const a={class:"params-container"};e("default",s({name:"Params",__name:"params",setup(e){const s=l(),v=i(),{changeTabsMeta:g}=v,o=r(""),y=u({name:"",path:"",params:{id:"111"}});return c(y,(()=>{(()=>{const e=s.matched[0].children.find((e=>"Params"===e.name));o.value=s.path.substring(s.path.lastIndexOf("/")+1,s.path.length),y.name=e.name,y.path=e.path,y.params.id=o.value,g({title:"Params",meta:{title:`Params id=${o.value}`}})})()}),{immediate:!0}),(e,s)=>{const l=t;return d(),m("div",a,[p(l,{title:"Params id="+h(o)},null,8,["title"]),p(h(n),{copyable:"","expand-depth":5,value:h(y)},null,8,["value"])])}}}))}}}));

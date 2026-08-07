@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+System.register(["./index-legacy-ZsikhjLK.js","./index-legacy-C4uLeUVk.js"],(function(e,t){"use strict";var l,n,a,s,o,u,i,r,c,d,_,p,m,y,f;return{setters:[e=>{l=e.d,n=e.r,a=e.c,s=e.f,o=e.b,u=e.w,i=e.K,r=e.O,c=e.a,d=e.v,_=e.u,p=e.gk,m=e.H,y=e.F},e=>{f=e.E}],execute:function(){const t=["id"];e("_",l({__name:"DrawerCustomizationHeader",setup(e){const l=n(!1);return(e,n)=>{const g=r,C=f;return s(),a(y,null,[o(g,{type:"primary",onClick:n[0]||(n[0]=e=>l.value=!0)},{default:u((()=>n[2]||(n[2]=[i("打开")]))),_:1,__:[2]}),o(C,{modelValue:_(l),"onUpdate:modelValue":n[1]||(n[1]=e=>m(l)?l.value=e:null),"append-to-body":"","show-close":!1,size:"288px"},{header:u((({close:e,titleId:l,titleClass:a})=>[c("span",{id:l,class:d(a)},"自定义头部",10,t),o(g,{icon:_(p),type:"danger",onClick:e},{default:u((()=>n[3]||(n[3]=[i("关闭")]))),_:2,__:[3]},1032,["icon","onClick"])])),default:u((()=>[n[4]||(n[4]=i(" 这是抽屉内容 "))])),_:1,__:[4]},8,["modelValue"])],64)}}}))}}}));

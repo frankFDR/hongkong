@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+.product-center-container[data-v-f69f4ee5] .el-card__body{position:relative;display:block;padding-left:98px;cursor:pointer}.product-center-container[data-v-f69f4ee5] .el-card__body .icon{position:absolute;left:var(--el-margin);display:flex;align-items:center;justify-content:center;width:58px;height:58px;overflow:hidden;color:var(--el-color-white);background:var(--el-color-primary);border-radius:var(--el-border-radius-base)}.product-center-container[data-v-f69f4ee5] .el-card__body .icon [class*=ri-]{font-size:32px}.product-center-container[data-v-f69f4ee5] .el-card__body .title{padding-top:8px;margin:0 48px 4px 0;overflow:hidden;font-size:var(--el-font-size-normal);color:var(--el-color-grey);text-overflow:ellipsis;white-space:nowrap}.product-center-container[data-v-f69f4ee5] .el-card__body .description{overflow:hidden;font-size:var(--el-font-size-extra-small);color:var(--el-color-grey);text-overflow:ellipsis;white-space:nowrap}

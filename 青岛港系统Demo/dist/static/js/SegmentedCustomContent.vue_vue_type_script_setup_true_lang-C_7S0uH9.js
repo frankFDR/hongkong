@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+import{d as _,r as n,gz as i,gA as f,gB as g,gC as m,gD as v,g as t,f as o,w as s,a as b,b as y,c as C,p as c,at as V,Z as k,t as B,u as r,H as h}from"./index-BejtHq3K.js";import{E}from"./index-Cupwi7Pp.js";const x={style:{padding:"calc(var(--el-padding) / 3)"}},A={key:0},w=_({__name:"SegmentedCustomContent",setup(D){const a=n("Apple"),p=n([{label:"苹果",value:"Apple",icon:i},{label:"樱桃",value:"Cherry",icon:f},{label:"葡萄",value:"Grape",icon:g},{label:"橘子",value:"Orange",icon:m},{label:"梨",value:"Pear",icon:v}]);return(N,l)=>{const d=V,u=E;return o(),t(u,{modelValue:r(a),"onUpdate:modelValue":l[0]||(l[0]=e=>h(a)?a.value=e:null),options:r(p)},{default:s(({item:e})=>[b("div",x,[y(d,{size:"20"},{default:s(()=>[e&&typeof e=="object"&&e.icon?(o(),t(k(e.icon),{key:0})):c("",!0)]),_:2},1024),e&&typeof e=="object"&&e.label?(o(),C("div",A,B(e&&e.label),1)):c("",!0)])]),_:1},8,["modelValue","options"])}}});export{w as _};

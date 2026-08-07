@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+import{d as c,c as _,f as p,b as t,w as s,O as l,K as u,a as o,u as d,cj as i,t as f,_ as g}from"./index-BejtHq3K.js";import{E as m}from"./index-ChNKt1mR.js";const x={class:"demo-progress"},b={class:"percentage-value"},C=c({__name:"ProgressCustomizedContent",setup(k){return(y,e)=>{const a=l,n=m;return p(),_("div",x,[t(n,{percentage:50},{default:s(()=>[t(a,{text:""},{default:s(()=>e[0]||(e[0]=[u("Content")])),_:1,__:[0]})]),_:1}),t(n,{percentage:50,status:"exception","stroke-width":20,"text-inside":!0},{default:s(()=>e[1]||(e[1]=[o("span",null,"Content",-1)])),_:1,__:[1]}),t(n,{percentage:100,status:"success",type:"circle"},{default:s(()=>[t(a,{circle:"",icon:d(i),type:"success"},null,8,["icon"])]),_:1}),t(n,{percentage:80,type:"dashboard"},{default:s(({percentage:r})=>[o("span",b,f(r)+"%",1),e[2]||(e[2]=o("span",{class:"percentage-label"},"Progressing",-1))]),_:1})])}}}),v=g(C,[["__scopeId","data-v-d17be3cb"]]);export{v as default};

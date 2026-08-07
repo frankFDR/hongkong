@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+import{_ as p}from"./index.vue_vue_type_script_setup_true_lang-ByYe68n1.js";import{V as u}from"./vue-json-viewer-91Zum-l8.js";import{d,i as _,ei as h,r as f,U as b,j as v,c as P,f as x,b as o,u as n}from"./index-BejtHq3K.js";import"./index-CjpoYgQi.js";import"./index-Dn3AG6ln.js";const V={class:"params-container"},T=d({name:"Params",__name:"params",setup(g){const e=_(),m=h(),{changeTabsMeta:i}=m,t=f(""),a=b({name:"",path:"",params:{id:"111"}}),c=()=>{const s=e.matched[0].children.find(r=>r.name==="Params");t.value=e.path.substring(e.path.lastIndexOf("/")+1,e.path.length),a.name=s.name,a.path=s.path,a.params.id=t.value,i({title:"Params",meta:{title:"Params id=".concat(t.value)}})};return v(a,()=>{c()},{immediate:!0}),(s,r)=>{const l=p;return x(),P("div",V,[o(l,{title:"Params id="+n(t)},null,8,["title"]),o(n(u),{copyable:"","expand-depth":5,value:n(a)},null,8,["value"])])}}});export{T as default};

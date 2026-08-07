@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+header[data-v-a25e2f17]{position:fixed;top:0;right:0;left:0;z-index:999;display:flex;align-items:center;justify-content:center;height:70px;margin:0;background:rgba(251,251,253,.8);backdrop-filter:saturate(180%) blur(20px)}@media screen and (max-width: 768px){header .index-nav[data-v-a25e2f17]{min-width:100%!important;max-width:100%!important}header .index-nav .logo[data-v-a25e2f17]{margin-right:var(--el-margin);margin-left:var(--el-margin)}}header .index-nav[data-v-a25e2f17]{display:flex;align-items:center;min-width:1152px;max-width:1366px;padding:0;margin:auto}header .index-nav .logo[data-v-a25e2f17]{display:flex;flex:1;align-items:center;height:70px;font-size:var(--el-font-size-extra-large);line-height:70px}header .index-nav .logo a[data-v-a25e2f17]{display:inline-block;width:40px;height:40px;margin-right:15px;background:url(../svg/avatar-DcBtz0py.svg) center center no-repeat;background-size:100% 100%}header .index-nav .logo span[data-v-a25e2f17]{margin-right:40px}header .index-nav[data-v-a25e2f17] .el-tabs__header{margin:0}

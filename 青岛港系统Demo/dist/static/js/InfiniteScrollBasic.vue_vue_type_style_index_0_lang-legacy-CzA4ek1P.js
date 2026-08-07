@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+System.register(["./index-legacy-C5HkNbL_.js","./index-legacy-ZsikhjLK.js"],(function(t,e){"use strict";var i,n,l,s,r,a,c,o,u,m;return{setters:[t=>{i=t.E},t=>{n=t.d,l=t.r,s=t.aW,r=t.c,a=t.f,c=t.F,o=t.q,u=t.t,m=t.u}],execute:function(){var e=document.createElement("style");e.textContent=".infinite-list{height:245px;padding:0;margin:0;list-style:none}.infinite-list .infinite-list-item{display:flex;align-items:center;justify-content:center;height:50px;margin:10px;color:var(--el-color-primary);background:var(--el-color-primary-light-9)}.infinite-list .infinite-list-item+.list-item{margin-top:10px}\n/*$vite$:1*/",document.head.appendChild(e);const f={class:"infinite-list",style:{overflow:"auto"}};t("_",n({__name:"InfiniteScrollBasic",setup(t){const e=l(0),n=()=>{e.value+=2};return(t,l)=>{const d=i;return s((a(),r("ul",f,[(a(!0),r(c,null,o(m(e),(t=>(a(),r("li",{key:t,class:"infinite-list-item"},u(t),1)))),128))])),[[d,n]])}}}))}}}));

@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+import{_ as c,d as r,V as d,c as n,f as o,F as l,q as i,a as s,b as p,v as _,t as u}from"./index-BejtHq3K.js";const y=r({name:"NodePanel",props:{lf:{type:Object,default:()=>{}}},data(){return{nodeList:[{text:"开始",type:"start",icon:"play-circle-line"},{text:"矩形",type:"rect",icon:"shape-line"},{type:"user",text:"用户",icon:"user-3-line"},{type:"push",text:"推送",icon:"share-line"},{type:"download",text:"位置",icon:"user-location-line"},{type:"end",text:"结束",icon:"stop-circle-line"}]}},methods:{$_dragNode(e){this.$props.lf.dnd.startDrag({type:e.type,text:e.label})}}}),f={class:"node-panel"},x=["onMousedown"],h={class:"node-label"};function m(e,v,$,b,g,N){const a=d("vab-icon");return o(),n("div",f,[(o(!0),n(l,null,i(e.nodeList,t=>(o(),n("div",{key:t.text,class:"node-item",onMousedown:k=>e.$_dragNode(t)},[s("div",{class:_(["node-item-icon",t.class])},[p(a,{icon:t.icon},null,8,["icon"])],2),s("span",h,u(t.text),1)],40,x))),128))])}const B=c(y,[["render",m],["__scopeId","data-v-1e516297"]]);export{B as default};

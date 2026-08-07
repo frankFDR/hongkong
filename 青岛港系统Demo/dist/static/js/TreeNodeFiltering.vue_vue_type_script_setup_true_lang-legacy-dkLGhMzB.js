@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+System.register(["./index-legacy-ZsikhjLK.js","./index-legacy-BevTx7Nc.js"],(function(e,l){"use strict";var d,a,n,i,r,t,u,c,o,b,s;return{setters:[e=>{d=e.d,a=e.r,n=e.j,i=e.c,r=e.f,t=e.b,u=e.u,c=e.H,o=e.L,b=e.F},e=>{s=e.E}],execute:function(){e("_",d({__name:"TreeNodeFiltering",setup(e){const l=a(""),d=a(),f={children:"children",label:"label"};n(l,(e=>{d.value?.filter(e)}));const h=(e,l)=>!e||l.label.includes(e),m=[{id:1,label:"一级 1",children:[{id:4,label:"二级 1-1",children:[{id:9,label:"三级 1-1-1"},{id:10,label:"三级 1-1-2"}]}]},{id:2,label:"一级 2",children:[{id:5,label:"二级 2-1"},{id:6,label:"二级 2-2"}]},{id:3,label:"一级 3",children:[{id:7,label:"二级 3-1"},{id:8,label:"二级 3-2"}]}];return(e,a)=>{const n=o;return r(),i(b,null,[t(n,{modelValue:u(l),"onUpdate:modelValue":a[0]||(a[0]=e=>c(l)?l.value=e:null),placeholder:"请输入查询条件",style:{"margin-bottom":"10px"}},null,8,["modelValue"]),t(u(s),{ref_key:"treeRef",ref:d,data:m,"default-expand-all":"","filter-node-method":h,props:f},null,512)],64)}}}))}}}));

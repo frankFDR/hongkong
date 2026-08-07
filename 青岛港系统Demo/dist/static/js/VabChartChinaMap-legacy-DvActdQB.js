@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+System.register(["./index-legacy-BVcx3Er1.js","./index-legacy-BGldioFj.js","./index-legacy-ZsikhjLK.js","./index-legacy-CMXgnq6n.js"],(function(t,e){"use strict";var a,n,i,s,o,l,r,c,u,p,d,g,m;return{setters:[t=>{a=t._},t=>{n=t._,i=t.cC},t=>{s=t.d,o=t.U,l=t.bi,r=t.g,c=t.f,u=t.w,p=t.b,d=t.u,g=t.e,m=t.P},null],execute:function(){t("default",s({name:"VabChartChinaMap",__name:"VabChartChinaMap",props:{title:{type:String,default:""}},setup(t){const e=o({grid:{top:20,right:20,bottom:40,left:40}});return l((()=>{(async()=>{const{data:t}=await m({url:"https://unpkg.com/echarts@4.9.0/map/json/china.json",method:"get"});setTimeout((()=>{i("china",t),e.geo={map:"china",type:"map",zoom:1.2,roam:!0}}),500)})()})),(i,s)=>{const o=n,l=a,m=g;return c(),r(m,{lg:8,md:12,sm:24,xl:6,xs:24},{default:u((()=>[p(l,{"body-style":{height:"240px"},skeleton:"",title:t.title},{default:u((()=>[p(o,{option:d(e)},null,8,["option"])])),_:1},8,["title"])])),_:1})}}}))}}}));

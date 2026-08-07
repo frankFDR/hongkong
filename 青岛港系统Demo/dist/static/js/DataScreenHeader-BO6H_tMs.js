@@ -1,0 +1,5 @@
+/*!  build: Vue Shop Vite 
+     copyright: https://vuejs-core.cn/shop-vite   
+     time: 2025-07-03 09:54:42 
+ */
+import{_ as d}from"./index.vue_vue_type_script_setup_true_lang-CRhCFW41.js";import{_ as i}from"./index.vue_vue_type_script_setup_true_lang-CiKTog2b.js";import{_ as r,g as m,w as s,b as e,a as o,V as f,e as p,E as u,f as h}from"./index-BejtHq3K.js";const v={},b={class:"data-screen-header hidden-xs-only"},x={class:"data-go-home"},g={class:"data-screen-header hidden-sm-and-up mobile-only"},k={class:"data-go-home"};function w(B,a){const n=f("vab-icon"),t=i,_=d,c=p,l=u;return h(),m(l,null,{default:s(()=>[e(c,{span:24},{default:s(()=>[o("div",b,[e(t,{target:"_blank",to:"/home"},{default:s(()=>[o("div",x,[e(n,{icon:"home-2-line"})])]),_:1}),a[0]||(a[0]=o("span",null,"主动感知的港口态势感知与研判系统",-1)),e(_,{class:"data-fullscreen"})]),o("div",g,[e(t,{target:"_blank",to:"/index"},{default:s(()=>[o("div",k,[e(n,{icon:"home-2-line"})])]),_:1}),a[1]||(a[1]=o("div",{class:"mobile-title"},"数据大屏",-1)),e(_,{class:"data-fullscreen"})])]),_:1})]),_:1})}const y=r(v,[["render",w],["__scopeId","data-v-63063bdd"]]);export{y as default};

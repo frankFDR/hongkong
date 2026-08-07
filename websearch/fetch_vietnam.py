@@ -9,13 +9,14 @@
     IPRoyal」，绕过 IPRoyal 对越南政府域名的黑名单；其它域名走远程解析。
   * 抓数据前做连通性预检；连不上时按原因分级提示（网关不通 / 认证失败 / 余额流量用尽）。
 
-本文件不依赖项目内其他 Python 文件；第三方依赖：``xlrd==2.0.1``、``PyYAML``。
+本文件不依赖项目内其他 Python 文件；第三方依赖：``xlrd==2.0.1``、``PyYAML``、``pypdf``。
 下载文件缓存在 ``cache/vietnam/``，最终输出默认 ``output/Vietnam.csv``。
 """
 from __future__ import annotations
 
 import argparse
 import csv
+import io
 import json
 import re
 import secrets
@@ -38,6 +39,7 @@ HERE = Path(__file__).resolve().parent
 CACHE_DIR = HERE / "cache" / "vietnam"
 DEFAULT_OUTPUT = HERE / "output" / "Vietnam.csv"
 DEFAULT_CONFIG = HERE / "config.yaml"
+CUSTOMS_LIST_URL = "https://www.customs.gov.vn/bridge?url=/customs/api/GetTKHQInfo"
 OUTPUT_COLUMNS = ["年月", "年", "月", "进口额", "出口额"]
 DETAIL_COLUMNS = [
     "source_page", "source_file", "year", "month", "flow",
@@ -110,6 +112,24 @@ MONTH_NAMES = {
     "apr": 4, "april": 4, "may": 5, "jun": 6, "june": 6, "jul": 7, "july": 7,
     "aug": 8, "august": 8, "sep": 9, "sept": 9, "september": 9,
     "oct": 10, "october": 10, "nov": 11, "november": 11, "dec": 12, "december": 12,
+}
+
+# Vietnam Customs tables 14B/15B use exactly these headline commodity rows.
+# Their reporting-month values reproduce the NSO E01/E02 textile totals.
+CUSTOMS_MONTHLY_LABELS = {
+    "export": (
+        "Yarn",
+        "Textiles and garments",
+        "Tyre cord fabrics and other fabrics for technical uses",
+        "Textile, leather and foot-wear materials and auxiliaries",
+        "Other made up textile articles",
+    ),
+    "import": (
+        "Cotton",
+        "Yarn",
+        "Fabrics",
+        "Textile, leather and foot-wear materials and auxiliaries",
+    ),
 }
 
 # gov 域名本地解析的兜底 IP（DoH 失败时使用；官方站点 IP 变动时可更新）。
@@ -256,8 +276,14 @@ class VietnamRelay:
         ip, _ = self._doh_query(host)
         source = "Cloudflare DoH"
         if not ip:
-            ip = GOV_IP_FALLBACK.get(host)
-            source = "代码内置备用 IP"
+            # NSO addresses change. Prefer the host's current system-DNS answer over
+            # a static emergency address when DoH is unavailable.
+            try:
+                ip = socket.gethostbyname(host)
+                source = "系统 DNS"
+            except OSError:
+                ip = GOV_IP_FALLBACK.get(host)
+                source = "代码内置备用 IP"
         if ip:
             self._dns_cache[host] = ip
             self._dns_source[host] = source
@@ -665,6 +691,129 @@ def fetch_wayback(url: str, proxy: str | None) -> bytes:
     return payload
 
 
+def _customs_fetch(url: str, data: bytes | None = None) -> bytes:
+    """Fetch the Vietnam Customs public API/files directly with short retries."""
+    request = urllib.request.Request(
+        url,
+        data=data,
+        headers={
+            "User-Agent": "Mozilla/5.0 VietnamTextileFetcher/3.0",
+            "X-Requested-With": "XMLHttpRequest",
+        },
+    )
+    last_error: Exception | None = None
+    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    for delay in (0, 2, 5):
+        time.sleep(delay)
+        try:
+            with opener.open(request, timeout=60) as response:
+                return response.read()
+        except OSError as exc:
+            last_error = exc
+    raise RuntimeError(f"越南海关请求失败 {url}: {last_error}")
+
+
+def discover_customs_monthly_reports(year: int) -> dict[tuple[int, str], str]:
+    """Return {(month, flow): public PDF URL} from the Customs page's own API."""
+    params = {
+        "skip": 0,
+        "take": 3000,
+        "ky": "",
+        "textSearch": "",
+        "the_loai": "0",
+        "thoigianCongBo": "",
+        "typeName": "GetListSoLieu",
+        "language": "TIENG_ANH",
+    }
+    payload = _customs_fetch(CUSTOMS_LIST_URL, json.dumps(params).encode())
+    rows = json.loads(payload).get("arr") or []
+    pattern = re.compile(
+        r"^Statistics of main (imports|exports) by month \(([A-Za-z]+) (\d{4})\)$",
+        re.I,
+    )
+    reports: dict[tuple[int, str], str] = {}
+    for row in rows:
+        match = pattern.match(str(row.get("TIEU_DE") or "").strip())
+        if not match or int(match.group(3)) != year:
+            continue
+        month = MONTH_NAMES.get(match.group(2).lower())
+        flow = "import" if match.group(1).lower() == "imports" else "export"
+        if not month:
+            continue
+        # Prefer a revised public file, then preliminary. The "final" field is often
+        # a future-dated private 10.x address and therefore is deliberately last.
+        candidates = (
+            row.get("FILE_DIEU_CHINH"), row.get("FILE_SO_BO"), row.get("FILE_CHINH_THUC")
+        )
+        url = next(
+            (
+                str(value) for value in candidates
+                if value and str(value).lower() != "null"
+                and str(value).startswith("https://files.customs.gov.vn/")
+            ),
+            None,
+        )
+        if url:
+            reports[month, flow] = url
+    return reports
+
+
+def parse_customs_monthly_pdf(payload: bytes, flow: str) -> float:
+    """Sum textile reporting-month values from a Customs table 14B/15B PDF."""
+    from pypdf import PdfReader
+
+    pdf_text = "\n".join(
+        page.extract_text() or "" for page in PdfReader(io.BytesIO(payload)).pages
+    )
+    values: list[float] = []
+    for label in CUSTOMS_MONTHLY_LABELS[flow]:
+        # A USD-only row is "<label>USD <value> ..."; a quantity row is
+        # "<label>Ton <volume> <value> ...". In both cases the captured number is
+        # the first reporting-month value in USD, not the year-to-date value.
+        match = re.search(
+            re.escape(label) + r"(?:USD\s+|Ton\s+[\d,]+\s+)([\d,]+)",
+            pdf_text,
+            re.I,
+        )
+        if not match:
+            raise RuntimeError(f"越南海关 PDF 缺少纺织分类: {flow} / {label}")
+        values.append(float(match.group(1).replace(",", "")))
+    return sum(values)
+
+
+def fetch_customs_fallback_year(year: int) -> list[dict[str, object]]:
+    """Build wide monthly totals for months having both Customs import/export PDFs."""
+    reports = discover_customs_monthly_reports(year)
+    rows: list[dict[str, object]] = []
+    for month in range(1, 13):
+        if not all((month, flow) in reports for flow in ("import", "export")):
+            continue
+        try:
+            values = {
+                flow: parse_customs_monthly_pdf(
+                    _customs_fetch(reports[month, flow]), flow
+                )
+                for flow in ("import", "export")
+            }
+        except Exception as exc:
+            print(
+                f"Vietnam Customs fallback: WARNING {year}-{month:02d} "
+                f"月报分类不完整，跳过该月: {exc}"
+            )
+            continue
+        rows.append({
+            "年月": f"{year:04d}{month:02d}",
+            "年": year,
+            "月": month,
+            "进口额": values["import"],
+            "出口额": values["export"],
+        })
+        print(f"Vietnam Customs fallback: {year}-{month:02d} 进口/出口月报解析成功")
+    if not rows:
+        raise RuntimeError(f"越南海关未找到 {year} 年成对的进口/出口月报")
+    return rows
+
+
 def flow_from_filename(filename: str) -> str | None:
     normalized = filename.lower()
     if "import" in normalized or re.match(r"e0?2(?:\D|$)", normalized):
@@ -951,7 +1100,10 @@ def main(
     # refresh: auto=用 cache/ 且当年刷新; all=忽略缓存全量重抓;
     #          data=existing_path 指向的既有 CSV 当缓存,已整年覆盖的年份不抓,只补缺
     existing: dict[str, dict[str, object]] = {}
-    if refresh == "data" and existing_path and existing_path.exists():
+    # Always load the published CSV as a safety baseline. In refresh=all it is not
+    # used as a download cache, but it fills years whose historical attachments are
+    # temporarily unavailable so successful years can still be published.
+    if existing_path and existing_path.exists():
         with existing_path.open(encoding="utf-8-sig", newline="") as handle:
             for row in csv.DictReader(handle):
                 if "年月" in row:
@@ -972,7 +1124,8 @@ def main(
                         "进口额": float(row["vietnam_import"]),
                         "出口额": float(row["vietnam_export"]),
                     }
-        print(f"Vietnam: data 模式,沿用 {existing_path} 已有 {len(existing)} 个月")
+        mode = "data 模式缓存" if refresh == "data" else "失败回退基线"
+        print(f"Vietnam: 加载 {mode} {existing_path} 已有 {len(existing)} 个月")
     this_year = date.today().year
     relay: VietnamRelay | None = None
     # 未显式给 --proxy、且非离线时，用 config.yaml 启动内嵌越南转发
@@ -987,21 +1140,50 @@ def main(
     skipped_years = 0
     try:
         records: list[dict[str, object]] = []
+        customs_fallback_rows: list[dict[str, object]] = []
+        failed_years: dict[int, str] = {}
         for year in range(2015, this_year + 1):
             # data 模式:过去年 12 个月齐全则整年跳过,不下载
-            if (year < this_year
+            if (refresh == "data" and year < this_year
                     and all(f"{year:04d}{month:02d}" in existing for month in range(1, 13))):
                 skipped_years += 1
                 continue
-            if archive_all and not offline:
-                archive_year_sources(year, proxy)
-            sources = resolve_sources(year, offline, proxy)
-            if set(sources) != {"export", "import"}:
-                raise RuntimeError(f"{year} 年缺少出口或进口官方附件")
-            for flow, url in sources.items():
-                path = cached_workbook(year, flow, url, offline, proxy,
-                                       refresh_all=refresh == "all")
-                records.extend(parse_workbook(path, source_page(year), url, year, flow))
+            year_records: list[dict[str, object]] = []
+            try:
+                if archive_all and not offline:
+                    archive_year_sources(year, proxy)
+                sources = resolve_sources(year, offline, proxy)
+                if set(sources) != {"export", "import"}:
+                    raise RuntimeError(f"{year} 年缺少出口或进口官方附件")
+                for flow, url in sources.items():
+                    path = cached_workbook(year, flow, url, offline, proxy,
+                                           refresh_all=refresh == "all")
+                    year_records.extend(
+                        parse_workbook(path, source_page(year), url, year, flow)
+                    )
+            except Exception as exc:  # isolate unavailable historical attachments by year
+                nso_error = f"{type(exc).__name__}: {exc}"
+                try:
+                    customs_rows = fetch_customs_fallback_year(year)
+                except Exception as customs_exc:
+                    failed_years[year] = (
+                        f"NSO/GSO={nso_error}; Vietnam Customs="
+                        f"{type(customs_exc).__name__}: {customs_exc}"
+                    )
+                    fallback_months = sum(key.startswith(str(year)) for key in existing)
+                    print(
+                        f"Vietnam: WARNING {year} 年两个官方来源均失败，"
+                        f"沿用现有 {fallback_months} 个月并继续后续年份: "
+                        f"{failed_years[year]}"
+                    )
+                else:
+                    customs_fallback_rows.extend(customs_rows)
+                    print(
+                        f"Vietnam: NSO/GSO {year} 年抓取失败，改用越南海关月报 "
+                        f"{len(customs_rows)} 个月: {nso_error}"
+                    )
+                continue
+            records.extend(year_records)
     finally:
         if relay is not None:
             relay.stop()
@@ -1012,8 +1194,12 @@ def main(
         key=lambda row: (row["year"], row["month"], row["flow"], row["commodity_normalized"], row["value"]),
     )
     totals = aggregate_records(details)
+    if customs_fallback_rows:
+        merged_fresh = {str(row["年月"]): row for row in totals}
+        merged_fresh.update({str(row["年月"]): row for row in customs_fallback_rows})
+        totals = [merged_fresh[key] for key in sorted(merged_fresh)]
     if existing:
-        # data 模式:被跳过整年的月份从既有 CSV 补回(同年月以新解析为准)
+        # Existing rows fill skipped/failed periods; freshly parsed months win.
         merged = {str(row["年月"]): row for row in totals}
         for key, row in existing.items():
             merged.setdefault(key, row)
@@ -1034,6 +1220,11 @@ def main(
         f"Vietnam: 写入 {output_path} "
         f"({len(totals)} 个月, {totals[0]['年月']} .. {totals[-1]['年月']})"
     )
+    if failed_years:
+        print(
+            "Vietnam: 部分年份抓取失败但已发布可用结果: "
+            + "; ".join(f"{year}: {error}" for year, error in failed_years.items())
+        )
     return totals
 
 
